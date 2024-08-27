@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.carousel-container {
+    perspective: 1000px;
+    
+}
+  
+.slick-slide {
+    transition: transform 0.5s ease, opacity 0.5s ease, width 0.5s ease;
+}
+
+.slide {
+    opacity: 0.6;
+    transform: scale(0.8) translateZ(-20px);
+    width: 80%; 
+    background-color: #F5F5F5;
+}
+
+.slide-active {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+    background-color: #fff;
+    width: 100%; 
+}
+
+.card-container {
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    height: 29rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.custom-dots li button {
+    background-color: #008A48;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+  
+.custom-dots li.slick-active button {
+    background-color: #008A48;
+
+}
+  
+.custom-dot {
+    margin: 20px 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #008A48;
+
+}
+@keyframes scrollText {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-65px);
+    }
+    45% {
+        transform: translateY(-65px);
+    }
+    50% {
+        transform: translateY(-130px);
+    }
+    70% {
+        transform: translateY(-130px);
+    }
+    75% {
+        transform: translateY(-195px);
+    }
+    95% {
+        transform: translateY(-195px);
+    }
+    100% {
+        transform: translateY(-260px);
+    }
+}
+
+.animate-scroll {
+    animation: scrollText 12s ease-in-out infinite;
+}
+
+.block {
+    height: 65px; 
+}
+
+
+@keyframes rotateColors {
+    0% {
+        background-color: #CCE1FD;
+        color: #0052C4;
+    }
+    20% {
+        background-color: #FCE8C5;
+        color: #E68619;
+    }
+    40% {
+        background-color: #FAD4D8;
+        color: #D32F2F; 
+    }
+    60% {
+        background-color: #E3DFF1;
+        color: #6A1B9A; 
+    }
+    80% {
+        background-color: #CCE1FD;
+        color: #0052C4;
+    }
+}
+@keyframes rotateTextColors {
+    0% {
+        color: #0052C4;
+    }
+    20% {
+        color: #E68619;
+    }
+    40% {
+        color: #D32F2F;
+    }
+    60% {
+        color: #6A1B9A;
+    }
+    80% {
+        color: #0052C4;
+    }
+}
+
+
+.rotating-section {
+    animation: rotateColors 25s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 48px;
+    border-radius: 60px;
+    margin: 10px auto;
+}
+
+.rotating-text {
+    font-size: 16px;
+    animation: rotateTextColors 25s infinite ease-in-out;
+}
