@@ -33,8 +33,8 @@ const Blog = () =>{
                
             </div>
             <div>
-                <div className="text-center lg:text-[48px] text-[20px] fw-thin pt-[10rem] pb-4">
-                    <h2><span className="text-[#008A48]">Chequemate’s </span> Blog</h2>
+                <div className="text-center lg:text-[48px] text-[25px] pt-[10rem] pb-4">
+                    <h2><span className="text-[#008A48] fw-medium">Chequemate’s </span> Blog</h2>
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:px-20 md:px-10 px-6 gap-[20px]">
                     {Array(9).fill().map(()=>(
