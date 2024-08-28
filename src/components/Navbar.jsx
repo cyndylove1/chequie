@@ -1,9 +1,9 @@
 import { useState } from "react";
-import logo from "../assets/Images/Logo.png";
+import logo from "../assets/images/Logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
-const Navbar = ({ handleOpenModal = () => {} }) => {
+const Navbar = () => {
     const [isPopupVisible, setPopupVisible] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
