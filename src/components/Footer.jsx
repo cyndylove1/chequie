@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-center mt-4">
-          <button className="w-[174px] h-[56px] bg-[#008A48] rounded-[50px] text-[18px] text-white font-thin">
+          <button className="w-[174px] h-[56px] bg-[#008A48] rounded-[50px] text-[18px] text-white fw-medium">
             Contact us
           </button>
         </div>

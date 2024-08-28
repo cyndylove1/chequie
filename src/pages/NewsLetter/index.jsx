@@ -12,7 +12,7 @@ const Newsletter = () =>{
                     <div className="bg-[#E5E3F9] text-[#4C4486] md:text-[20px] text-[14px] rounded-full px-4 py-1 mb-2">
                     Savings Matter
                     </div>
-                    <h1 className="md:text-[48px] text-[20px] fw-medium md:fw-thin text-[#008A48] text-center">Chequie’s Newsletter</h1>
+                    <h1 className="md:text-[48px] text-[20px] text-[#008A48] text-center fw-medium">Chequie’s Newsletter</h1>
                     <p className="text-[#707070] text-center max-w-xl md:text-[20px] text-[14px] mt-2">
                     We won’t spam you with information you don’t need, we promise! Join thousands of 
                     <span className="[#008A48]"> Mates </span> 
@@ -24,13 +24,13 @@ const Newsletter = () =>{
                         <input
                             type="text"
                             placeholder="Your first name"
-                            className="border border-[#AFAFAF] rounded-lg md:h-[80px] h-[48px] px-4 py-2 focus:outline-none focus:border-green-600"
+                            className="border border-[#AFAFAF] rounded-lg md:h-[80px] h-[48px] bg-white px-4 py-2 focus:outline-none focus:border-green-600"
                         />
                         <label htmlFor="" className="text-[#707070]">Email Address</label>
                         <input
                             type="email"
                             placeholder="Your email address"
-                            className="border border-[#AFAFAF] rounded-lg px-4 py-2 md:h-[80px] h-[48px] focus:outline-none focus:border-green-600"
+                            className="border border-[#AFAFAF] rounded-lg px-4 py-2 bg-white md:h-[80px] h-[48px] focus:outline-none focus:border-green-600"
                         />
                         <button
                             type="submit"

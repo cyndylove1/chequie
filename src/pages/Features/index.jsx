@@ -7,7 +7,7 @@ const Features = () =>{
     return(
         <div className="px-4">
             <div className="md:text-[35px] text-[20px] text-center">
-                <h2 className="text-[12px] text-[#333333] fw-thin pt-[8rem]">FEATURES</h2>
+                <h2 className="text-[15px] text-[#333333] fw-thin pt-[8rem]">FEATURES</h2>
                 <h2 className="pt-4">We’ve made<span className="text-[#008A48]"> Group Savings</span> easy</h2>
             </div>
             <div className="flex items-center md:flex-row flex-col justify-center gap-[58px] pt-[5rem] md:px-6 lg:px-0">
@@ -43,7 +43,7 @@ const Features = () =>{
                 </div>
             </div>
             <div>
-                <h2 className="text-[12px] text-[#333333] fw-thin pt-[10rem] text-center">EARLY ACCESS</h2>
+                <h2 className="text-[15px] text-[#333333] fw-thin pt-[10rem] text-center">EARLY ACCESS</h2>
                 <div className="flex items-center justify-center gap-[3rem] lg:pt-[6rem] pt-[2rem] md:flex-row flex-col px-6 ">
                     <div>
                         <img src={duck}alt="" className=""/>
