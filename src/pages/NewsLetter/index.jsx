@@ -4,7 +4,7 @@ const Newsletter = () =>{
     return(
         <div>
             <div className="flex lg:flex-row justify-center mt-16 px-4 w-full max-w-6xl relative flex-col">
-                <div className="xl:pl-[10rem] lg:pl-[3rem] flex justify-center lg:justify-start ">
+                <div className="xl:pl-[10rem] lg:pl-[4rem] flex justify-center lg:justify-start ">
                     <img src={duck} alt="" className="md:-top-[5rem] absolute py-[40px] h-fit" />
 
                 </div>
