@@ -15,13 +15,13 @@ const Features = () =>{
                     <img src={section1} alt="" />
                 </div>
                 <div className="w-full lg:w-[40%] text-center md:text-left">
-                    <h2 className="text-[#0052C4] lg:text-[30px] text-[25px] fw-thin py-2">Be part of a Savings Group</h2>
+                    <h2 className="text-[#0052C4] lg:text-[30px] text-[25px] fw-medium py-2">Be part of a Savings Group</h2>
                     <h5 className="">Create an Ajo Community with vetted partners ensuring you receive timely payments when it's your turn, fostering financial growth  through collaborative savings and support.</h5>
                 </div>
             </div>
             <div className="flex items-center md:flex-row flex-col-reverse justify-center gap-[58px] gap-[20px] pt-[5rem] md:px-6 lg:px-0">
                 <div className="w-full lg:w-[40%] text-center md:text-left">
-                    <h2 className="lg:text-[30px] text-[25px] fw-thin text-[#008A48] py-2">Feel free to Save Alone</h2>
+                    <h2 className="lg:text-[30px] text-[25px] fw-thin text-[#008A48] fw-medium py-2">Feel free to Save Alone</h2>
                     <h5>Save when you want and how you want. Whether you’re locking funds  towards achieving a goal or just because you have too much to cash, get attractive interest rates on the Chequemate app.
                     </h5>
                 </div>
@@ -35,7 +35,7 @@ const Features = () =>{
                 </div>
                 <div className="w-full lg:w-[40%] text-center md:text-left">
                     <div className="md:flex-row md:py-0 flex flex-col items-center justify-between py-4">
-                        <h2 className="text-[#4C4486] lg:text-[30px] text-[25px] fw-thin">Lock it for a while</h2>
+                        <h2 className="text-[#4C4486] lg:text-[30px] text-[25px] fw-medium">Lock it for a while</h2>
                         <p className="w-[100px] h-[36px] bg-[#FFE3D0] text-[#FB4E00] text-[10px] flex justify-center items-center rounded-[20px]">COMING SOON</p>
 
                     </div>

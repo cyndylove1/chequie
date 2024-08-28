@@ -14,7 +14,7 @@ const Home = () =>{
                     <h5 className="text-[#0052C4] rotating-text md:text-[16px] text-[8px]">Over 1000+ USERS on CHEQUEMATE</h5>
                 </div>
                 <div className="">
-                    <div className="fw-medium md:pt-10 md:text-[55px] text-[20px] text-center md:leading-[65px]">
+                    <div className="fw-bold md:pt-10 md:text-[55px] text-[20px] text-center md:leading-[65px]">
                        <div className="">
                             Welcome to  {" "}
                         </div>
@@ -44,7 +44,7 @@ const Home = () =>{
                 </div>
             </div>
             <div>
-                <img src={heroimg} alt="" className="h-[150px] md:h-fit w-full " />
+                <img src={heroimg} alt="" className=" w-full " />
             </div>
              <div id="features">
                 <Features/>

@@ -7,7 +7,7 @@ const Cheque = () => {
   return (
     <div className="lg:mt-[10rem] mt-[50rem]">
       <div className="text-center fw-thin lg:text-[48px] text-[26px]">
-        <h2 className="pb-6">
+        <h2 className="pb-6 fw-medium">
           Win at life with <span className="text-[#008A48]">Chequemate</span>
         </h2>
       </div>
