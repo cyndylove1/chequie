@@ -21,7 +21,7 @@ const Features = () =>{
             </div>
             <div className="flex items-center md:flex-row flex-col-reverse justify-center gap-[58px] gap-[20px] pt-[5rem] md:px-6 lg:px-0">
                 <div className="w-full lg:w-[40%] text-center md:text-left">
-                    <h2 className="lg:text-[30px] text-[25px] fw-thin text-[#008A48] fw-medium py-2">Feel free to Save Alone</h2>
+                    <h2 className="lg:text-[30px] text-[25px] text-[#008A48] fw-medium py-2">Feel free to Save Alone</h2>
                     <h5>Save when you want and how you want. Whether you’re locking funds  towards achieving a goal or just because you have too much to cash, get attractive interest rates on the Chequemate app.
                     </h5>
                 </div>

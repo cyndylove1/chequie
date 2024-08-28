@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div className=" lg:pt-0 justify-evenly flex xl:gap-[4rem] gap-[2rem] pt-10">
               <div>
-                <h2 className="text-white text-[16px] fw-thin">Features</h2>
+                <h2 className="text-white text-[16px] fw-medium">Features</h2>
                 <ul className="text-white">
                   <li className="py-[5px]">Group Savings</li>
                   <li className="py-[5px]">Solo Savings</li>
@@ -63,7 +63,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h2 className="text-white text-[16px] fw-thin">Resource</h2>
+                <h2 className="text-white text-[16px] fw-medium">Resource</h2>
                 <ul className="gap-[10px] text-white">
                   <Link to="/blog">
                     <li className="py-[5px]">Blog</li>
