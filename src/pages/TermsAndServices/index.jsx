@@ -1,3 +1,4 @@
+import Icon from "../../components/Icon";
 import Save from "../../components/Save";
 import Title from "../../components/Title";
 
@@ -23,24 +24,11 @@ const TermsAndServices = () => {
             </p>
         </div>
 
-        <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:mx-10 mx-4">
-            <ul>
+        <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:mx-10 mx-4 ">
+            <ul className="">
             {terms.map((term, index) => (
-                <li key={index} className="flex items-center h-fit mb-4">
-                <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="mr-4"
-                >
-                    <rect width="60" height="60" rx="30" fill="#CCE8DA" />
-                    <path
-                    d="M30 18L33.2411 26.7589L42 30L33.2411 33.2411L30 42L26.7589 33.2411L18 30L26.7589 26.7589L30 18Z"
-                    fill="#008A48"
-                    />
-                </svg>
+                <li key={index} className="flex items-center mb-4 gap-[10px]">
+                  <Icon/>
                 <span className="md:text-[20px] text-[14px]">{term}</span>
                 </li>
             ))}
