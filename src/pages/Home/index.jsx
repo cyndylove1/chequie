@@ -44,7 +44,7 @@ const Home = () =>{
                 </div>
             </div>
             <div>
-                <img src={heroimg} alt="" className="h-[150px] md:h-fit " />
+                <img src={heroimg} alt="" className="h-[150px] md:h-fit w-full " />
             </div>
              <div id="features">
                 <Features/>
