@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
-    background-color: white;
+}
+body{
+    background-color: #ffffff; 
+    color: #000000; 
 }
 
 .carousel-container {
