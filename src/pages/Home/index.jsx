@@ -9,7 +9,7 @@ import Faqs from "../Faqs";
 const Home = () =>{
     return(
         <div>
-            <div className="">
+            <div className="bg-white">
                 <div className=" rotating-section bg-[#CCE1FD] md:w-[350px] w-[170px] h-[35px] md:h-[48px] flex items-center rounded-[60px] justify-center mt-14">
                     <h5 className="text-[#0052C4] rotating-text md:text-[16px] text-[8px]">Over 1000+ USERS on CHEQUEMATE</h5>
                 </div>
