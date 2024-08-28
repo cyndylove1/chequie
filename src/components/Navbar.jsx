@@ -110,7 +110,7 @@ const Navbar = () => {
                         smooth={true}
                         duration={500}
                         className={({ isActive }) =>
-                            isActive ? "text-[#008A48] cursor-pointer " : "text-black border-b cursor-pointer"
+                            isActive ? "text-[#008A48] cursor-pointer " : "text-black cursor-pointer"
                         }
                     >
                        <li className="border-[#AFAFAF] border-b-[2px] py-4"><h2>Home</h2></li> 
