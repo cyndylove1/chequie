@@ -5,10 +5,10 @@ const Newsletter = () =>{
         <div>
             <div className="flex lg:flex-row justify-center mt-16 px-4 w-full max-w-6xl relative flex-col">
                 <div className="xl:pl-[10rem] lg:pl-[4rem] flex justify-center lg:justify-start ">
-                    <img src={duck} alt="" className="md:-top-[5rem] absolute py-[40px] h-fit" />
+                    <img src={duck} alt="" className="md:-top-[5rem] absolute py-[10px] md:py-[60px] h-fit" />
 
                 </div>
-                <div className="flex-1 flex flex-col items-center pt-[15rem] md:pt-[10rem] lg:pt-0">
+                <div className="flex-1 flex flex-col items-center pt-[13rem] md:pt-[10rem] lg:pt-0">
                     <div className="bg-[#E5E3F9] text-[#4C4486] md:text-[20px] text-[14px] rounded-full px-4 py-1 mb-2">
                     Savings Matter
                     </div>
