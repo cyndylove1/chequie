@@ -60,8 +60,12 @@ const Features = () =>{
                             </h5>
 
                         </div>
+                        <div className="">
+                            <Input props= "Become a Mate"/>
+
+                        </div>
                        
-                        <Input props= "Become a Mate"/>
+                       
                     </div>
                 </div>
 
