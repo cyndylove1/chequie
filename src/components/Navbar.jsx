@@ -14,10 +14,13 @@ const Navbar = () => {
   return (
     <div className="">
      
-        <div className="flex justify-between items-center lg:px-14 px-4 md:px-6 py-6 border-b border-[1px] lg:border-none ">
-            <div>
-                <img src={logo} alt="" className=" h-[16px] md:h-fit" />
-            </div>
+        <div className="flex justify-between items-center lg:px-14 px-4 md:px-6 py-6 border-b border-[1px] lg:border-none">
+            <Link to={"/"}>
+                <div>
+                    <img src={logo} alt="" className=" h-[16px] md:h-fit" />
+                </div>
+            </Link>
+            
             <div className="lg:flex hidden ">
                 <ul className="flex gap-[4rem]">
                     <NavLink
