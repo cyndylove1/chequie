@@ -22,7 +22,7 @@ const Navbar = () => {
             </Link>
             
             <div className="lg:flex hidden ">
-                <ul className="flex gap-[4rem]">
+                <ul className="flex gap-[4rem] fw-medium">
                     <NavLink
                         to="/"
                         smooth={true}
