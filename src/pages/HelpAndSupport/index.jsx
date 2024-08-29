@@ -10,7 +10,7 @@ const HelpAndSupport = () =>{
             </div>
             <div>
                 <div className="flex justify-center">
-                    <img src={help} alt="" className="md:hit h-[150px]" />
+                    <img src={help} alt="" className="md:h-fit h-[150px]" />
                 </div>
                 <div className="md:w-[70%] w-full mx-auto">
                     <p className="text-center lg:text-[24px] md:text-[20px] text-[14px] pt-[3rem] px-2">Need assistance? We're here to help! Whether you have questions about your account, need help joining an Ajo group, or want to understand more about our interest rates, our dedicated support team is ready to assist you.</p>

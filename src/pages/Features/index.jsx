@@ -60,7 +60,7 @@ const Features = () =>{
                             </h5>
 
                         </div>
-                        <div className="">
+                        <div className="lg:mt-6 mt-4">
                             <Input props= "Become a Mate"/>
 
                         </div>

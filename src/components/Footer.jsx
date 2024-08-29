@@ -71,13 +71,13 @@ const Footer = () => {
                   <Link to="/newsletter">
                     <li className="py-[5px]">NewsLetter</li>
                   </Link>
-                  <Link to="/terms&services">
+                  <Link to="/terms-services">
                     <li className="py-[5px]">Terms & Services</li>
                   </Link>
                   <Link to="/privacy">
                     <li className="py-[5px]">Privacy Policy</li>
                   </Link>
-                  <Link to="/help&support">
+                  <Link to="/help-support">
                     <li className="py-[5px]">Help & Support</li>
                   </Link>
                 </ul>
