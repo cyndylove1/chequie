@@ -12,7 +12,7 @@ const Cheque = () => {
         </h2>
       </div>
       {/* Use grid or flexbox for responsive layout */}
-      <div className="md:grid-cols-3 xl:mx-24 md:mx-4 lg:mx-10 mx-0 gap-[30px] md:gap-[20px] grid grid-cols-1">
+      <div className="md:grid-cols-2 lg:grid-cols-3 xl:mx-24 md:mx-4 lg:mx-10 mx-0 gap-[30px] md:gap-[20px] grid grid-cols-1">
         {/* Interest Section */}
         <div className="text-center">
           <img src={interest} alt="" className="mx-auto"/>
