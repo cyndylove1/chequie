@@ -39,7 +39,7 @@ const Newsletter = () =>{
                             SUBSCRIBE
                         </button>
                     </form>
-                    <p className="text-[#505050] text-[20px] mt-4">
+                    <p className="text-[#505050] md:text-[20px] text-[16px] mt-4">
                     Unsubscribe at any time
                     </p>
 

@@ -19,7 +19,7 @@ const Blog = () =>{
                     </div>
                     <div>
                         <div>
-                            <h2>Top Blogs</h2>
+                            <h2 className="fw-bold md:text-[28px] text-[20px]">Top Blogs</h2>
                         </div>
                         {Array(6).fill().map(()=>(
                             <div className="py-6">
