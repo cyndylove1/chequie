@@ -19,8 +19,8 @@ const Footer = () => {
             at +234-800-123-4567. Our team is available Monday to Friday, 9 a.m. to 5 p.m.
           </p>
         </div>
-        <div className="flex justify-center mt-4">
-          <button className="w-[174px] h-[56px] bg-[#008A48] rounded-[50px] text-[18px] text-white fw-medium">
+        <div className="md:mx-0 flex justify-center mx-6 mt-4">
+          <button className="md:w-[174px] w-full h-[56px] bg-[#008A48] rounded-[50px] text-[18px] text-white fw-medium">
             Contact us
           </button>
         </div>
