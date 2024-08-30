@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import chekee from "../../assets/images/Baddie chequie.svg";
+import chekee from "../../assets/images/Baddie Chequie.svg";
 import five from "../../assets/images/5.png";
 import star from "../../assets/images/Frame 38673.png";
 
