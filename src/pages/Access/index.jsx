@@ -1,5 +1,5 @@
 import Input from "../../components/Input";
-import duck from "../../assets/images/chequie.svg"
+import duck from "../../assets/images/Chequie.svg"
 const Access = () =>{
     return(
         <div>
