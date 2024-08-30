@@ -60,42 +60,50 @@ body{
     background-color: #008A48;
 
 }
+
 @keyframes scrollText {
     0% {
-        transform: translateY(0);
+        transform: translateY(0); /* Start with Ajo visible */
+    }
+    10% {
+        transform: translateY(0); /* Ajo stays */
     }
     20% {
-        transform: translateY(0);
+        transform: translateY(-65px); /* Move to Esusu */
     }
-    25% {
-        transform: translateY(-65px);
+    30% {
+        transform: translateY(-65px); /* Esusu stays */
     }
-    45% {
-        transform: translateY(-65px);
+    40% {
+        transform: translateY(-130px); /* Move to Adashe */
     }
     50% {
-        transform: translateY(-130px);
+        transform: translateY(-130px); /* Adashe stays */
+    }
+    60% {
+        transform: translateY(-195px); /* Move to ROSCA */
     }
     70% {
-        transform: translateY(-130px);
+        transform: translateY(-195px); /* ROSCA stays */
     }
-    75% {
-        transform: translateY(-195px);
+    80% {
+        transform: translateY(-260px); /* Move to Thrift */
     }
-    95% {
-        transform: translateY(-195px);
+    90% {
+        transform: translateY(-260px); /* Thrift stays */
     }
     100% {
-        transform: translateY(-260px);
+        transform: translateY(-325px); /* Move out of view */
     }
 }
 
 .animate-scroll {
-    animation: scrollText 12s ease-in-out infinite;
+    animation: scrollText 15s linear infinite; /* Adjusted timing for continuous scroll */
+    text-align: start;
 }
 
 .block {
-    height: 65px; 
+    height: 65px; /* Height of one span */
 }
 
 

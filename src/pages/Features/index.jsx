@@ -1,8 +1,8 @@
-import section1 from "../../assets/images/Section (1).png";
-import section2 from "../../assets/images/Section.png";
-import section3 from "../../assets/images/Section (2).png";
-import duck from "../../assets/images/Frame 1171276166.png";
-import Input from "../../components/Input";
+import section1 from "../../assets/images/Section 1.svg";
+import section2 from "../../assets/images/Section 2.svg";
+import section3 from "../../assets/images/Section.svg";
+
+import Access from "../Access";
 const Features = () =>{
     return(
         <div className="px-4">
@@ -42,34 +42,7 @@ const Features = () =>{
                     <h5>Secure your savings by locking funds for a set period and build strong saving habits and achieving your financial goals with the support of a trusted community, all within the Chequemate app.</h5>
                 </div>
             </div>
-            <div>
-                <h2 className="text-[15px] text-[#333333] fw-thin pt-[10rem] text-center">EARLY ACCESS</h2>
-                <div className="flex items-center justify-center gap-[3rem] lg:pt-[6rem] pt-[2rem] md:flex-row flex-col px-6 ">
-                    <div>
-                        <img src={duck}alt="" className=""/>
-                    </div>
-                    <div className="text-center md:text-left w-full lg:w-[40%]">
-                        <h2 className="lg:text-[48px] text-[26px]">Hi,<span className="text-[#008A48] ">I’m Chequie</span></h2>
-                        <div className="">
-                            <h5 className="lg:text-[30px] text-[15px] md:text-[17px]">
-                                I share firsthand access to investment
-                                opportunities, exclusive information, and 
-                                sustainable savings updates. Subscribe 
-                                to to my newsletter for early adopter 
-                                benefits today.
-                            </h5>
-
-                        </div>
-                        <div className="lg:mt-6 mt-4">
-                            <Input props= "Become a Mate"/>
-
-                        </div>
-                       
-                       
-                    </div>
-                </div>
-
-            </div>
+           <Access/>
             
             
         </div>

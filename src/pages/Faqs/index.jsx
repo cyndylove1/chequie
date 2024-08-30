@@ -8,7 +8,7 @@ const Faqs = () => {
     return (
         <div>
             <div className="mb-[25rem]">
-                <div className="text-center pt-[15rem] ">
+                <div className="text-center md:pt-[15rem] pt-[8rem] ">
                     <h2 className="fw-bold md:text-[35px] text-[25px]">Frequently Asked Questions</h2>
                     <h5 className="md:text-[22px] text-[15px] fw-thin ">We`re happy to answer your questions</h5>
                 </div>

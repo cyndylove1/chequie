@@ -1,6 +1,6 @@
-import badge1 from "../../assets/images/Mobile App Store Badges.png";
-import badge2 from "../../assets/images/Mobile App Store Badges (1).png";
-import heroimg from "../../assets/images/Group.png";
+import badge1 from "../../assets/images/Mobile-App.svg";
+import badge2 from "../../assets/images/Mobile-App 2.svg";
+import hero from "../../assets/images/Landing.svg";
 import Features from "../Features";
 import Roadmap from "../RoadMap";
 import Cheque from "../Cheque";
@@ -44,7 +44,7 @@ const Home = () =>{
                 </div>
             </div>
             <div>
-                <img src={heroimg} alt="" className=" w-full " />
+                <img src={hero} alt="" className=" w-full" />
             </div>
              <div id="features">
                 <Features/>
