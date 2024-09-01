@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import chekee from "../../assets/images/Baddie Chequie.svg";
-import five from "../../assets/images/5.png";
-import star from "../../assets/images/Frame 38673.png";
+import { FaStar } from "react-icons/fa6";
+
 
 
 const Slide = () => {
@@ -55,7 +55,7 @@ const Slide = () => {
 
   return (
     <div className="">
-      <div className="carousel-container lg:pt-[15rem] pt-[8rem] ">
+      <div className="carousel-container lg:pt-[8rem] pt-[8rem] ">
         <div className="text-center lg:text-[48px] text-[30px] fw-medium md:fw-thin ">
           <h2>
             A <span className="text-[#008A48]">Mate</span> once said...
@@ -63,7 +63,7 @@ const Slide = () => {
         </div>
         <div className="relative block justify-center h-[29rem] pt-10 md:px-[4rem] px-4 ">
           <div className="">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden pb-20">
               <Slider {...settings} ref={sliderRef}>
               {Array(5)
                 .fill()
@@ -86,11 +86,20 @@ const Slide = () => {
                         </p>
                       </div>
                       <div className="pt-6">
-                        <div className="flex justify-center">
-                          <img src={five} alt="5 Stars" />
+                        <div className="flex justify-center items-center">
+                          <h2 className="text-[40px] fw-medium">4.5</h2>
+                          <div className="">
+                            <h5 className="mt-2 text-[20px] text-[#DCDCDC]">/5</h5>
+                          </div>
+                          
                         </div>
-                        <div className="flex justify-center gap-[5px] pt-4">
-                          <img src={star} alt="Star Icon" />
+                        <div className="flex justify-center gap-[5px] pt-2 pb-10 items-center">
+                        {Array(4).fill().map(()=>(
+                          <div>
+                            <h2 className="text-[#FFD433] text-[20px]"><FaStar/></h2>
+                          </div>
+                        ))}
+                        <h2 className="text-[#E8E8E8] text-[20px]"><FaStar/></h2>
                         </div>
                       </div>
                     </div>

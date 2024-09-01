@@ -5,7 +5,7 @@ import earn from "../../assets/images/Section 6.svg";
 
 const Cheque = () => {
   return (
-    <div className="lg:mt-[10rem] md:mt-[40rem] mt-[50rem]">
+    <div className="lg:mt-[6rem] md:mt-[33rem] mt-[43rem]">
       <div className="text-center fw-thin lg:text-[48px] text-[26px]">
         <h2 className="fw-medium pb-6">
           Win at life with <span className="text-[#008A48]">Chequemate</span>

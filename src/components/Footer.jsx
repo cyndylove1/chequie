@@ -30,11 +30,10 @@ const Footer = () => {
           <div className="flex lg:px-6 xl:px-14 justify-evenly py-[5rem] xl:gap-[3rem] gap-[2rem] md:pt-[15rem] flex-col lg:flex-row px-6">
             <div className="">
               <div className="lg:justify-start flex justify-center">
-                <img src={logo} alt="" />
-                
+                <img src={logo} alt="" className="md:h-[50px] lg:h-[40px]" />
               </div>
               <div className="">
-                <h4 className="text-white text-[18px] pt-2 text-center lg:text-start ">Chequie helps pool funds with <br />friends & family, save with high interest <br /> rates,and pay bills easily.</h4>
+                <h4 className="text-white md:text-[25px] lg:text-[15px] text-[18px] pt-2 text-center lg:text-start ">Chequie helps pool funds with <br />friends & family, save with high interest <br /> rates,and pay bills easily.</h4>
                 
               </div>
               
@@ -55,16 +54,16 @@ const Footer = () => {
             </div>
             <div className=" lg:pt-0 justify-evenly flex xl:gap-[4rem] gap-[2rem] pt-10">
               <div>
-                <h2 className="text-white text-[16px] fw-medium">Features</h2>
-                <ul className="text-white">
+                <h2 className="text-white text-[16px] md:text-[20px] fw-medium">Features</h2>
+                <ul className="text-white md:text-[20px] lg:text-[15px]">
                   <li className="py-[5px]">Group Savings</li>
                   <li className="py-[5px]">Solo Savings</li>
                   <li className="py-[5px]">Fixed Deposit</li>
                 </ul>
               </div>
               <div>
-                <h2 className="text-white text-[16px] fw-medium">Resource</h2>
-                <ul className="gap-[10px] text-white">
+                <h2 className="text-white text-[16px] md:text-[20px] fw-medium">Resource</h2>
+                <ul className="gap-[10px] md:text-[20px] lg:text-[15px] text-white">
                   <Link to="/blog">
                     <li className="py-[5px]">Blog</li>
                   </Link>
@@ -84,7 +83,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="md:mx-auto mb-[3rem]">
-                <h2 className="p-2 text-white text-[18px] ">Subscribe to Newsletter</h2>
+                <h2 className="p-2 text-white text-[18px] md:text-[25px]  ">Subscribe to Newsletter</h2>
                 <Input props="Subscribe" className="" />
               </div>
              

@@ -2,8 +2,10 @@ import { useState } from "react";
 import logo from "../assets/images/Logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import Modal from "./Modal";
 
 const Navbar = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [isPopupVisible, setPopupVisible] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,18 +13,25 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleButtonClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="">
-     
         <div className="flex justify-between items-center lg:px-14 px-4 md:px-6 py-6 border-b border-[1px] lg:border-none">
             <Link to={"/"}>
                 <div>
-                    <img src={logo} alt="" className=" h-[16px] md:h-fit" />
+                    <img src={logo} alt="" className="" />
                 </div>
             </Link>
             
-            <div className="lg:flex hidden ">
-                <ul className="flex gap-[4rem] fw-medium">
+            <div className="lg:flex hidden">
+                <ul className="flex gap-[4rem]">
                     <NavLink
                         to="/"
                         smooth={true}
@@ -84,18 +93,18 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <button className="bg-[#008A48] py-2 px-4 text-white text-[16px] rounded-[4px] lg:flex hidden">
+            <button className="bg-[#008A48] py-2 px-4 text-white text-[16px] rounded-[4px] lg:flex hidden"onClick={handleButtonClick}>
                 <h2>Get the App</h2>
             </button>
 
             <div className="lg:hidden flex items-center">
                 <button onClick={toggleMenu}>
                     {menuOpen ? (
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.75781 17.243L12.0008 12L17.2438 17.243M17.2438 6.75696L11.9998 12L6.75781 6.75696" stroke="#131D0E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     ) : (
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                        <path d="M20.5 7.5H3.5M20.5 12H6.5M20.5 16.5H3.5" stroke="#131D0E" stroke-linecap="round"/>
                        </svg>
                         
@@ -171,7 +180,7 @@ const Navbar = () => {
                 </button> */}
             </div>
         )}
-           
+           <Modal isModalOpen={isModalOpen} handleCloseModal={handleCloseModal} />
     </div>
   );
 };

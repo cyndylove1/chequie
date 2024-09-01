@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import badge1 from "../../assets/images/Mobile-App.svg";
 import badge2 from "../../assets/images/Mobile-App 2.svg";
 import hero from "../../assets/images/Landing.svg";
@@ -6,7 +7,10 @@ import Roadmap from "../RoadMap";
 import Cheque from "../Cheque";
 import Slide from "../Slide";
 import Faqs from "../Faqs";
+import  useHome from "./useHome"
+import Modal from "../../components/Modal";
 const Home = () =>{
+    const {content} = useHome();
     return(
         <div>
             <div className="">
@@ -15,36 +19,34 @@ const Home = () =>{
                 </div>
                 <div className="">
                     <div className="fw-bold md:pt-10 md:text-[55px] text-[25px] text-center md:leading-[65px]">
-                       <div className="">
-                            Welcome to  {" "}
-                        </div>
+                        <div>Welcome to</div>
                         <div className="relative overflow-hidden md:h-[65px] flex justify-center gap-[8px]">
-                        <div>
-                            <h2>the World of Safe </h2> 
-                        </div> 
-                            <div className="animate-scroll">
-                                <p className="block">
-                                    <span className="text-[#008A48] block">Ajo</span>
-                                    <span className="text-[#4C4486] block">Esusu</span>
-                                    <span className="block text-orange-500">Adashe</span>
-                                    <span className="text-[#0052C4] block">ROSCA</span>
-                                    <span className="text-[#f58088] block">Thrift</span>
-                                </p>
+                            <div>
+                            <h2>the World of Safe </h2>
                             </div>
-                        </div> 
+                            <div className="scroll-container">
+                            <div className="scroll-content">
+                                {content.map((item, index) => (
+                                <span key={index} className="block" style={{ color: item.color }}>
+                                    {item.text}
+                                </span>
+                                ))}
+                            </div>
+                            </div>
+                        </div>
                     </div>
                     <p className="text-center md:py-6 md:text-[24px] text-[16px] lg:w-[50%] w-full px-4 md:px-6 lg:px-0 mx-auto ">
                         Pool funds with friends & family, save with high interest rates,
                         <span className="">and pay bills easily with Chequemate app.</span>
                     </p>
                 </div>
-                <div className="flex items-center justify-center gap-3 py-4 pb-20">
+                <div className="flex items-center justify-center gap-4 pt-4 pb-20">
                     <img src={badge1} alt="" />
                     <img src={badge2} alt="" />
                 </div>
             </div>
             <div>
-                <img src={hero} alt="" className=" w-full" />
+                <img src={hero} alt="" className=" w-fit h-fit" />
             </div>
              <div id="features">
                 <Features/>
@@ -55,7 +57,7 @@ const Home = () =>{
             <div id="faqs">
                 <Faqs/>
             </div>   
-             
+             <Modal/>
         </div>
     )
 }

@@ -58,53 +58,72 @@ body{
     height: 5px;
     border-radius: 50%;
     background-color: #008A48;
+    
 
 }
 
+/*  */
 @keyframes scrollText {
     0% {
-        transform: translateY(0); /* Start with Ajo visible */
+      transform: translateY(0);
     }
     10% {
-        transform: translateY(0); /* Ajo stays */
+      transform: translateY(0);
     }
     20% {
-        transform: translateY(-65px); /* Move to Esusu */
+      transform: translateY(-65px);
     }
     30% {
-        transform: translateY(-65px); /* Esusu stays */
+      transform: translateY(-65px);
     }
     40% {
-        transform: translateY(-130px); /* Move to Adashe */
+      transform: translateY(-130px);
     }
     50% {
-        transform: translateY(-130px); /* Adashe stays */
+      transform: translateY(-130px);
     }
     60% {
-        transform: translateY(-195px); /* Move to ROSCA */
+      transform: translateY(-195px);
     }
     70% {
-        transform: translateY(-195px); /* ROSCA stays */
+      transform: translateY(-195px);
     }
     80% {
-        transform: translateY(-260px); /* Move to Thrift */
+      transform: translateY(-260px);
     }
     90% {
-        transform: translateY(-260px); /* Thrift stays */
+      transform: translateY(-260px);
     }
     100% {
-        transform: translateY(-325px); /* Move out of view */
+      transform: translateY(-325px); 
     }
-}
-
-.animate-scroll {
-    animation: scrollText 15s linear infinite; /* Adjusted timing for continuous scroll */
+    110% {
+      transform: translateY(-325px); 
+    }
+  }
+  
+  .scroll-container {
+    position: relative;
+    overflow: hidden;
+    height: 65px;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    animation: scrollText 15s linear infinite;
     text-align: start;
-}
+  }
+  @media (max-width: 540px) {
+        .scroll-container {
+        height: 40px; 
+        }
+    
+        .block {
+        height: 65px; 
+        }
+    }
+  
 
-.block {
-    height: 65px; /* Height of one span */
-}
 
 
 @keyframes rotateColors {
