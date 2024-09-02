@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="flex lg:px-6 xl:px-14 justify-evenly py-[5rem] xl:gap-[3rem] gap-[2rem] md:pt-[15rem] flex-col lg:flex-row px-6">
             <div className="">
               <div className="lg:justify-start flex justify-center">
-                <img src={logo} alt="" className="md:h-[50px] lg:h-[30px]" />
+                <img src={logo} alt="" className="h-[30px] md:h-[50px] lg:h-[40px] w-fit" />
               </div>
               <div className="">
                 <h4 className="text-white md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start ">Chequie helps pool funds with <br /> friends & family,save with high <br />interest  rates,and pay bills easily.</h4>
