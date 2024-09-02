@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/images/Logo.png";
+import logo from "../assets/images/LOGOMARK-1.png";
 import { Link, NavLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import Modal from "./Modal";
@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center lg:px-14 px-4 md:px-6 py-6 border-b border-[1px] lg:border-none">
             <Link to={"/"}>
                 <div>
-                    <img src={logo} alt="" className="" />
+                    <img src={logo} alt="" className="h-30 w-[187px]" />
                 </div>
             </Link>
             
@@ -172,12 +172,6 @@ const Navbar = () => {
 
                 </ul>
                 
-                {/* <button
-                    onClick={handleOpenModal}
-                    className="bg-[#008080] py-[10px] px-6 fw-bold text-white rounded-md"
-                >
-                    Join The Waitlist
-                </button> */}
             </div>
         )}
            <Modal isModalOpen={isModalOpen} handleCloseModal={handleCloseModal} />

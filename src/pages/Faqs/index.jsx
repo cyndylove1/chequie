@@ -9,8 +9,8 @@ const Faqs = () => {
         <div>
             <div className="mb-[25rem]">
                 <div className="text-center lg:pt-[15rem] pt-[10rem] ">
-                    <h2 className="fw-bold md:text-[35px] text-[25px]">Frequently Asked Questions</h2>
-                    <h5 className="md:text-[22px] text-[15px] fw-medium ">We`re happy to answer your questions</h5>
+                    <h2 className="fw-bolder md:text-[35px] text-[25px]">Frequently Asked Questions</h2>
+                    <h5 className="md:text-[22px] text-[15px] fw-bold ">We`re happy to answer your questions</h5>
                 </div>
 
                 <div className='w-full lg:px-[6rem] px-2 lg:pt-[5rem] pt-[2rem]'>

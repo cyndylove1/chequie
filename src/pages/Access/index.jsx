@@ -12,7 +12,7 @@ const Access = () =>{
                     <div className="text-center md:text-left w-full lg:w-[40%]">
                         <h2 className="lg:text-[48px] text-[26px]">Hi,<span className="text-[#008A48] "> I’m Chequie</span></h2>
                         <div className="">
-                            <h5 className="xl:text-[30px] lg:text-[24px] text-[15px] md:text-[17px]">
+                            <h5 className="lg:text-[24px] text-[15px] md:text-[17px]">
                                 I share firsthand access to investment
                                 opportunities, exclusive information, and 
                                 sustainable savings updates. Subscribe 

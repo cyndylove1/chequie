@@ -1,4 +1,4 @@
-import logo from "../assets/images/Logo (1).png";
+import logo from "../assets/images/LOGOMARK-3.png";
 import { IoLogoInstagram } from "react-icons/io";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaXTwitter } from "react-icons/fa6";
@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="flex lg:px-6 xl:px-14 justify-evenly py-[5rem] xl:gap-[3rem] gap-[2rem] md:pt-[15rem] flex-col lg:flex-row px-6">
             <div className="">
               <div className="lg:justify-start flex justify-center">
-                <img src={logo} alt="" className="md:h-[50px] lg:h-[40px]" />
+                <img src={logo} alt="" className="md:h-[50px] lg:h-[30px]" />
               </div>
               <div className="">
-                <h4 className="text-white md:text-[25px] lg:text-[15px] text-[18px] pt-2 text-center lg:text-start ">Chequie helps pool funds with <br />friends & family, save with high interest <br /> rates,and pay bills easily.</h4>
+                <h4 className="text-white md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start ">Chequie helps pool funds with <br /> friends & family,save with high <br />interest  rates,and pay bills easily.</h4>
                 
               </div>
               
@@ -83,7 +83,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="md:mx-auto mb-[3rem]">
-                <h2 className="p-2 text-white text-[18px] md:text-[25px]  ">Subscribe to Newsletter</h2>
+                <h2 className="p-2 text-white text-[18px] md:text-[25px] lg:text-[18px]  ">Subscribe to Newsletter</h2>
                 <Input props="Subscribe" className="" />
               </div>
              

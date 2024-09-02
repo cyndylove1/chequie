@@ -6,9 +6,9 @@ import Access from "../Access";
 const Features = () =>{
     return(
         <div className="px-4">
-            <div className="lg:text-[35px] md:text-[25px] text-[20px] text-center">
+            <div className=" text-center">
                 <h2 className="text-[15px] text-[#333333] fw-thin pt-[8rem]">FEATURES</h2>
-                <h2 className="pt-4">We’ve made<span className="text-[#008A48]"> Group Savings</span> easy</h2>
+                <h2 className="pt-4 lg:text-[40px] md:text-[25px] text-[20px]">We’ve made<span className="text-[#008A48]"> Group Savings</span> easy</h2>
             </div>
             <div className="flex items-center md:flex-row flex-col justify-center md:gap-[58px] gap-[20px] pt-[5rem] md:px-6 lg:px-0">
                 <div>

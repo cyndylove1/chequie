@@ -46,11 +46,14 @@
 }
 
 .fw-bold{
-    font-weight: bold;
+    font-weight: 500;
 }
 .fw-medium{
     font-weight: 400;
 }
 .fw-thin{
     font-weight: 200;
+}
+.fw-bolder{
+    font-weight: 700;
 }

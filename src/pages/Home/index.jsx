@@ -15,10 +15,10 @@ const Home = () =>{
         <div>
             <div className="">
                 <div className=" rotating-section bg-[#CCE1FD] md:w-[350px] w-[170px] h-[35px] md:h-[48px] flex items-center rounded-[60px] justify-center mt-14">
-                    <h5 className="text-[#0052C4] rotating-text md:text-[16px] text-[8px]">Over 1000+ USERS on CHEQUEMATE</h5>
+                    <h5 className="text-[#0052C4] rotating-text md:text-[16px] text-[8px] fw-bold">Over 1000+ USERS on CHEQUEMATE</h5>
                 </div>
                 <div className="">
-                    <div className="fw-bold md:pt-10 md:text-[55px] text-[25px] text-center md:leading-[65px]">
+                    <div className="fw-bolder md:pt-10 md:text-[55px] text-[25px] text-center md:leading-[65px]">
                         <div>Welcome to</div>
                         <div className="relative overflow-hidden md:h-[65px] flex justify-center gap-[8px]">
                             <div>
@@ -40,13 +40,13 @@ const Home = () =>{
                         <span className="">and pay bills easily with Chequemate app.</span>
                     </p>
                 </div>
-                <div className="flex items-center justify-center gap-4 pt-4 pb-20">
+                <div className="flex items-center justify-center gap-4 pt-4 pb-6">
                     <img src={badge1} alt="" />
                     <img src={badge2} alt="" />
                 </div>
             </div>
-            <div>
-                <img src={hero} alt="" className=" w-fit h-fit" />
+            <div className="">
+                <img src={hero} alt="" className="" />
             </div>
              <div id="features">
                 <Features/>
