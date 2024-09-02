@@ -19,7 +19,7 @@ const Features = () =>{
                     <h5 className="mb:md-0 pb-10">Create an Ajo Community with vetted partners ensuring you receive timely payments when it's your turn, fostering financial growth  through collaborative savings and support.</h5>
                 </div>
             </div>
-            <div className="flex items-center md:flex-row flex-col-reverse justify-center md:gap-[58px] gap-[20px] md:pt-0 lg:mt-[5rem] pt-[5rem] md:px-6 lg:px-0">
+            <div className="flex items-center md:flex-row flex-col-reverse justify-center md:gap-[58px] gap-[20px] md:pt-0 lg:mt-[5rem] md:px-6 lg:px-0">
                 <div className="w-full lg:w-[40%] text-center md:text-left">
                     <h2 className="lg:text-[30px] text-[25px] text-[#008A48] fw-medium py-2">Feel free to Save Alone</h2>
                     <h5 className="md:pb-0 pb-10">Save when you want and how you want. Whether you’re locking funds  towards achieving a goal or just because you have too much to cash, get attractive interest rates on the Chequemate app.
