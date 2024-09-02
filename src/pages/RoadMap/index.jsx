@@ -5,8 +5,8 @@ const Roadmap = () => {
     <section className="py-16 lg:mt-[6rem] mt-[5rem] ">
       <div className="mb-16 text-center">
         <p className="text-[15px] text-gray-500 uppercase">Roadmap</p>
-        <h2 className="lg:text-5xl text-xl fw-medium lg:w-[40%] w-full mx-auto">
-          We’re on a goal <br /> to<span className="text-[#008A48] ">1,000 </span>Mates
+        <h2 className="lg:text-5xl text-2xl fw-medium lg:w-[35%] w-full mx-auto ">
+          We’re on a goal to<span className="text-[#008A48] "> 1,000 </span>Mates
         </h2>
       </div>
       <div className=" relative flex justify-center">
