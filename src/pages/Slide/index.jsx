@@ -72,7 +72,7 @@ const Slide = () => {
                     key={index}
                     className={`slide ${index === slideIndex ? "slide-active" : ""}`}
                   >
-                    <div className="border-[2px] rounded-[12px] h-[29rem]">
+                    <div className="border-[2px] rounded-[12px] h-[32rem]">
                       <div className="flex justify-center pt-4">
                         <img src={chekee} alt="" className="h-[100px] w-[100px]" />
                       </div>
