@@ -41,7 +41,7 @@ const Home = () =>{
                     </p>
                 </div>
                 <div className="flex items-center justify-center gap-4 pt-4 pb-6">
-                    <img src={badge1} alt="" />
+                    <img src={badge1} alt="" className=""/>
                     <img src={badge2} alt="" />
                 </div>
             </div>
