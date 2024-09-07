@@ -83,15 +83,18 @@ const Footer = () => {
               </div>
             </div>
             <div className="md:mx-auto mb-[3rem]">
-                <h2 className="p-2 text-white text-[18px] md:text-[25px] lg:text-[18px]  ">Subscribe to Newsletter</h2>
-                <Input props="Subscribe" className="" />
-              </div>
-             
+            {/* <h2 className="p-2 text-white text-[18px] md:text-[25px] lg:text-[18px]  ">Subscribe to Newsletter</h2>
+            <Input props="Subscribe" className="" /> */}
+              <script type="text/javascript" src="https://campaigns.zoho.com/js/zc.iframe.js"></script>
+              <iframe frameborder="0" id="iframewin" width="100%" height="100%" src="https://zcsub-cmpzourl.maillist-manage.com/ua/Optin?od=11287eccb4ae05&zx=1333b49e6&tD=112a0bf46db0c67a9&sD=112a0bf46db0d61a1"></iframe>
+            
+            
+            </div>
           </div>
           
         </div>
         <div className="text-center border-[#fff] border-t-[1px] pb-[3rem] xl:mx-[4rem] md:mx-[2rem]">
-          <h5 className="py-6 text-white">Copyright 2024 &copy; The Owlet</h5>
+          <h5 className="py-6 text-white">Copyright 2024 &copy; The Chequemate</h5>
         </div>
 
       </div>
