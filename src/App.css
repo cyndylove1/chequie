@@ -182,3 +182,37 @@ body{
     font-size: 16px;
     animation: rotateTextColors 25s infinite ease-in-out;
 }
+
+.zoho-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008000; /* Green background */
+  padding: 10px;
+  border-radius: 30px; /* Rounded corners */
+  width: max-content;
+  max-width: 100%;
+}
+
+.zoho-iframe {
+  border: none;
+  width: 300px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+  outline: none;
+}
+
+.zoho-container::after {
+  content: "Subscribe";
+  background-color: #ffffff; /* White background */
+  color: #008000; /* Green text */
+  padding: 10px 25px;
+  font-size: 16px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
