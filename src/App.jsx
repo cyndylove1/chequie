@@ -18,18 +18,18 @@ function App() {
     <>
       <div className='bg-white'>
         <BrowserRouter>
-        <ScrollToTop/>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/blog" element={<Blog/>}/>
-          <Route path="/blog2" element={<Blog2/>}/>
-          <Route path="/newsletter" element={<Newsletter/>}/>
-          <Route path= "/help-Support"element={<HelpAndSupport/>}/>
-          <Route path= "/terms-services"element={<TermsAndServices/>}/>
-          <Route path= "/privacy"element={<PrivacyAndSupport/>}/>
-        </Routes>
-        <Footer/>
+          <ScrollToTop/>
+          <Navbar/>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/blog" element={<Blog/>}/>
+            <Route path="/blog2" element={<Blog2/>}/>
+            <Route path="/newsletter" element={<Newsletter/>}/>
+            <Route path= "/help-Support"element={<HelpAndSupport/>}/>
+            <Route path= "/terms-services"element={<TermsAndServices/>}/>
+            <Route path= "/privacy"element={<PrivacyAndSupport/>}/>
+          </Routes>
+          <Footer/>
         </BrowserRouter>
         
         

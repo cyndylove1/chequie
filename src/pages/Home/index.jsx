@@ -48,16 +48,16 @@ const Home = () =>{
             <div className="">
                 <img src={hero} alt="" className="" />
             </div>
-             <div id="features">
+            <div id="features">
                 <Features/>
             </div>
             <Roadmap/>
             <Cheque/>
-             <Slide/>
+            <Slide/>
             <div id="faqs">
                 <Faqs/>
             </div>   
-             <Modal/>
+            <Modal/>
         </div>
     )
 }
