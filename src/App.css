@@ -1,68 +1,68 @@
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body{
-    background-color: #ffffff; 
-    color: #000000; 
+  background-color: #ffffff; 
+  color: #000000; 
 }
 
 .carousel-container {
-    perspective: 1000px;
+  perspective: 1000px;
     
 }
   
 .slick-slide {
-    transition: transform 0.5s ease, opacity 0.5s ease, width 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease, width 0.5s ease;
 }
 
 .slide {
-    opacity: 0.6;
-    transform: scale(0.8) translateZ(-20px);
-    width: 80%; 
-    background-color: #F5F5F5;
+  opacity: 0.6;
+  transform: scale(0.8) translateZ(-20px);
+  width: 80%; 
+  background-color: #F5F5F5;
 }
 
 .slide-active {
-    opacity: 1;
-    transform: scale(1) translateZ(0);
-    background-color: #fff;
-    width: 100%; 
+  opacity: 1;
+  transform: scale(1) translateZ(0);
+  background-color: #fff;
+  width: 100%; 
 }
 
 .card-container {
-    border: 2px solid #e0e0e0;
-    border-radius: 12px;
-    height: 29rem;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  height: 29rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
 .custom-dots li button {
-    background-color: #008A48;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+  background-color: #008A48;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
 }
   
 .custom-dots li.slick-active button {
-    background-color: #008A48;
+  background-color: #008A48;
 
 }
   
 .custom-dot {
-    margin: 20px 0;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #008A48;
-    
+  margin: 20px 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #008A48;
+  
 
 }
 
-/*  */
+
 @keyframes scrollText {
     0% {
       transform: translateY(0);
@@ -114,105 +114,122 @@ body{
     text-align: start;
   }
   @media (max-width: 540px) {
-        .scroll-container {
-        height: 40px; 
-        }
-    
-        .block {
-        height: 65px; 
-        }
+    .scroll-container {
+      height: 40px; 
     }
+
+    .block {
+      height: 65px; 
+    }
+  }
   
 
 
 
 @keyframes rotateColors {
-    0% {
-        background-color: #CCE1FD;
-        color: #0052C4;
-    }
-    20% {
-        background-color: #FCE8C5;
-        color: #E68619;
-    }
-    40% {
-        background-color: #FAD4D8;
-        color: #D32F2F; 
-    }
-    60% {
-        background-color: #E3DFF1;
-        color: #6A1B9A; 
-    }
-    80% {
-        background-color: #CCE1FD;
-        color: #0052C4;
-    }
+  0% {
+    background-color: #CCE1FD;
+    color: #0052C4;
+  }
+  20% {
+    background-color: #FCE8C5;
+    color: #E68619;
+  }
+  40% {
+    background-color: #FAD4D8;
+    color: #D32F2F; 
+  }
+  60% {
+    background-color: #E3DFF1;
+    color: #6A1B9A; 
+  }
+  80% {
+    background-color: #CCE1FD;
+    color: #0052C4;
+  }
 }
 @keyframes rotateTextColors {
-    0% {
-        color: #0052C4;
-    }
-    20% {
-        color: #E68619;
-    }
-    40% {
-        color: #D32F2F;
-    }
-    60% {
-        color: #6A1B9A;
-    }
-    80% {
-        color: #0052C4;
-    }
+  0% {
+    color: #0052C4;
+  }
+  20% {
+    color: #E68619;
+  }
+  40% {
+    color: #D32F2F;
+  }
+  60% {
+    color: #6A1B9A;
+  }
+  80% {
+    color: #0052C4;
+  }
 }
 
 
 .rotating-section {
-    animation: rotateColors 25s infinite ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 48px;
-    border-radius: 60px;
-    margin: 10px auto;
+  animation: rotateColors 25s infinite ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 48px;
+  border-radius: 60px;
+  margin: 10px auto;
 }
 
 .rotating-text {
-    font-size: 16px;
-    animation: rotateTextColors 25s infinite ease-in-out;
-}
-
-.zoho-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #008000; /* Green background */
-  padding: 10px;
-  border-radius: 30px; /* Rounded corners */
-  width: max-content;
-  max-width: 100%;
-}
-
-.zoho-iframe {
-  border: none;
-  width: 300px; /* Adjust as needed */
-  height: 40px; /* Adjust as needed */
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  overflow: hidden;
-  outline: none;
-}
-
-.zoho-container::after {
-  content: "Subscribe";
-  background-color: #ffffff; /* White background */
-  color: #008000; /* Green text */
-  padding: 10px 25px;
   font-size: 16px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  animation: rotateTextColors 25s infinite ease-in-out;
+}
+.subscribe-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.subscribe-form {
+  display: flex;
+  width: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 50px;
+  border: 1px solid #AFAFAF;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  
+}
+
+
+.submit-button {
+  padding: 15px 20px;
+  background-color: #008A48;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1em;
+}
+
+@media (max-width: 600px) {
+  .subscribe-form {
+    flex-direction: column;
+  }
+  
+  .email-input {
+    padding: 0.5em;
+    font-size: 0.875em; 
+  }
+  
+  .submit-button {
+    padding: 0.5em 1em;
+    font-size: 0.875em; 
+  }
 }

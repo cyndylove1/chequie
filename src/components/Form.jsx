@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const Input = () => {
+const Form = () => {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "https://zcsub-cmpzourl.maillist-manage.com/js/optin.min.js";
@@ -22,10 +22,7 @@ const Input = () => {
         };
     }, []);
     
-     
- 
-
-     return (
+    return (
     
         <div className="subscribe-container">
             <form
@@ -38,7 +35,7 @@ const Input = () => {
                 <div className="input-container">
                     <input
                         type="text"
-                        className="w-full p-4 overflow-hidden outline-none bg-white"
+                        className="xl:w-[350px] md:w-[250px] w-full p-4 outline-none bg-white"
                         placeholder="Enter email address"
                         name="CONTACT_EMAIL"
                         id="EMBED_FORM_EMAIL_LABEL"
@@ -46,7 +43,7 @@ const Input = () => {
                     <input
                         type="submit"
                         className="submit-button"
-                        value="Become a Mate"
+                        value="Subscribe"
                     />
                 </div>
                 <input type="hidden" id="fieldBorder" value="" />
@@ -71,4 +68,4 @@ const Input = () => {
     );
 };
 
-export default Input;
+export default Form;

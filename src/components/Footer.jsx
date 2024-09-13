@@ -3,8 +3,8 @@ import { IoLogoInstagram } from "react-icons/io";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaXTwitter } from "react-icons/fa6";
 import { GrLinkedinOption } from "react-icons/gr";
-import Input from "./Input";
 import { Link } from "react-router-dom";
+import Form from "../components/Form"
 
 const Footer = () => {
   return (
@@ -82,11 +82,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="md:mx-auto mb-[3rem]">
-            <h2 className="p-2 text-white text-[18px] md:text-[25px] lg:text-[18px]  ">Subscribe to Newsletter</h2>
-            <Input props="Subscribe" className="" />
+            <div className="md:mx-auto">
+              <h2 className="p-2 text-white text-[18px] md:text-[25px] lg:text-[18px]">Subscribe to Newsletter</h2>
+             <Form/>
               
-            
             </div>
           </div>
           
