@@ -24,14 +24,14 @@ const Form = () => {
     
     return (
     
-        <div className="subscribe-container">
+       <div className="subscribe-container">
             <form
                 method="POST"
                 id="zcampaignOptinForm"
                 className="subscribe-form"
                 action="https://zcsub-cmpzourl.maillist-manage.com/weboptin.zc"
                 target="_zcSignup"
-            >
+            > 
                 <div className="input-container">
                     <input
                         type="text"

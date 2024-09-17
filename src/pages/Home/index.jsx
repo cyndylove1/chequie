@@ -9,6 +9,7 @@ import Slide from "../Slide";
 import Faqs from "../Faqs";
 import  useHome from "./useHome"
 import Modal from "../../components/Modal";
+import Partner from "../Partners";
 const Home = () =>{
     const {content} = useHome();
     return(
@@ -54,6 +55,7 @@ const Home = () =>{
             <Roadmap/>
             <Cheque/>
             <Slide/>
+            <Partner/>
             <div id="faqs">
                 <Faqs/>
             </div>   

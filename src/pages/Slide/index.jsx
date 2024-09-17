@@ -55,7 +55,7 @@ const Slide = () => {
 
   return (
     <div className="">
-      <div className="carousel-container lg:pt-[8rem] pt-[8rem] ">
+      <div className="carousel-container pt-[8rem] ">
         <div className="text-center lg:text-[48px] text-[30px] fw-medium md:fw-thin ">
           <h2>
             A <span className="text-[#008A48]">Mate</span> once said...
