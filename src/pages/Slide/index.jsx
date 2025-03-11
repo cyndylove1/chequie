@@ -82,7 +82,7 @@ const Slide = () => {
                       </div>
                       <div className="mt-4 text-center">
                         <h5 className="font-bold text-[28px]">{slide.name}</h5>
-                        <h6>{slide.location}</h6>
+                        <h6>{slide.role}</h6>
                         <p className="px-4 pt-4">{slide.text}</p>
                       </div>
                       <div className="pt-6">

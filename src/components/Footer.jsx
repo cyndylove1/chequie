@@ -45,12 +45,11 @@ const Footer = () => {
                   className="h-[30px] md:h-[50px] lg:h-[40px] w-fit"
                 />
               </div>
-              
-                <h4 className="text-white  md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start">
-                  Earn up to 22% interest on Ajo savings and up to 18% on
-                  Solo savings with Chequemate.
-                </h4>
-              
+
+              <h4 className="text-white  md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start">
+                Earn up to 22% interest on Ajo savings and up to 18% on Solo
+                savings with Chequemate.
+              </h4>
 
               <div className="flex text-[#fff] gap-[15px] mt-4 justify-center lg:justify-start">
                 <a
@@ -96,7 +95,7 @@ const Footer = () => {
                   Resource
                 </h2>
                 <ul className="gap-[5px] md:text-[20px] lg:text-[15px] text-white">
-                  <Link to="/blog">
+                  <Link to="https://blog.chequemateapp.com/">
                     <li className="py-[5px]">Blog</li>
                   </Link>
                   <Link to="/newsletter">
