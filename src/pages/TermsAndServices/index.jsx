@@ -24,7 +24,7 @@ const TermsAndServices = () => {
         </p>
       </div>
 
-      <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:mx-10 mx-4 ">
+      <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:mx-14 mx-4 ">
         <ul className="">
         {terms.map((term, index) => (
             <li key={index} className="flex items-center mb-4 gap-[10px]">

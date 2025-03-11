@@ -2,8 +2,8 @@ import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import chekee from "../../assets/images/Baddie Chequie.svg";
 import { FaStar } from "react-icons/fa6";
+import slidesData from "../Slide/useSlide"
 
 
 
@@ -63,43 +63,50 @@ const Slide = () => {
         </div>
         <div className="relative block justify-center h-[29rem] pt-10 md:px-[4rem] px-4 ">
           <div className="">
-            <div className="overflow-hidden pb-20">
+            <div className="pb-20 overflow-hidden">
               <Slider {...settings} ref={sliderRef}>
-              {Array(5)
-                .fill()
-                .map((_, index) => (
+                {slidesData.map((slide, index) => (
                   <div
                     key={index}
-                    className={`slide ${index === slideIndex ? "slide-active" : ""}`}
+                    className={`slide ${
+                      index === slideIndex ? "slide-active" : ""
+                    }`}
                   >
-                    <div className="border-[2px] rounded-[12px] h-[32rem]">
+                    <div className="border-[2px] rounded-[12px] lg:h-[45rem] xl:h-[37rem]">
                       <div className="flex justify-center pt-4">
-                        <img src={chekee} alt="" className="h-[100px] w-[100px]" />
+                        <img
+                          src={slide.image}
+                          alt=""
+                          className="h-[100px] w-[100px]"
+                        />
                       </div>
                       <div className="mt-4 text-center">
-                        <h5 className="font-bold text-[28px]">Jane Bloom</h5>
-                        <h6>Lagos, Nigeria</h6>
-                        <p className="px-4 pt-4">
-                          Chequemate is literally the best savings app ever.
-                          Chequie loves to reward hard work. Safelock funds and get
-                          the most competitive interest rates with Chequemate.
-                        </p>
+                        <h5 className="font-bold text-[28px]">{slide.name}</h5>
+                        <h6>{slide.location}</h6>
+                        <p className="px-4 pt-4">{slide.text}</p>
                       </div>
                       <div className="pt-6">
-                        <div className="flex justify-center items-center">
+                        <div className="flex items-center justify-center">
                           <h2 className="text-[40px] fw-medium">4.5</h2>
                           <div className="">
-                            <h5 className="mt-2 text-[20px] text-[#DCDCDC]">/5</h5>
+                            <h5 className="mt-2 text-[20px] text-[#DCDCDC]">
+                              /5
+                            </h5>
                           </div>
-                          
                         </div>
                         <div className="flex justify-center gap-[5px] pt-2 pb-10 items-center">
-                        {Array(4).fill().map(()=>(
-                          <div>
-                            <h2 className="text-[#FFD433] text-[20px]"><FaStar/></h2>
-                          </div>
-                        ))}
-                        <h2 className="text-[#E8E8E8] text-[20px]"><FaStar/></h2>
+                          {Array(4)
+                            .fill()
+                            .map(() => (
+                              <div>
+                                <h2 className="text-[#FFD433] text-[20px]">
+                                  <FaStar />
+                                </h2>
+                              </div>
+                            ))}
+                          <h2 className="text-[#E8E8E8] text-[20px]">
+                            <FaStar />
+                          </h2>
                         </div>
                       </div>
                     </div>

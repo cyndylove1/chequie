@@ -35,7 +35,7 @@ const Form = () => {
                 <div className="input-container">
                     <input
                         type="text"
-                        className="xl:w-[350px] md:w-[250px] w-full p-4 outline-none bg-white"
+                        className="xl:w-[350px] md:w-[300px] w-full p-4 outline-none bg-white"
                         placeholder="Enter email address"
                         name="CONTACT_EMAIL"
                         id="EMBED_FORM_EMAIL_LABEL"
