@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="relative">
       <div className="absolute -top-[40rem] md:-top-[30rem] left-0 right-0 lg:mx-[10rem] rounded-[12px] h-[23rem] bg-white shadow-2xl z-10 mt-[20rem]">
-        <div className="text-center pt-[5rem]">
+        <div className="text-center pt-[5rem] w-full md:[w-30">
           <h2 className="lg:text-[32px] text-[20px] font-bold px-2">
             Ready to Get Started with{" "}
             <span className="text-[#008A48]">Chequie?</span>
@@ -23,7 +23,7 @@ const Footer = () => {
             >
               support@chequemateapp.com
             </a>{" "}
-            or call us <br />
+            or call us
             <span className="text-[#008A48] underline">02013306493</span> Our
             team is available Monday to Friday, 9 a.m. to 5 p.m.
           </p>

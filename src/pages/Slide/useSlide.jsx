@@ -29,7 +29,7 @@ const slidesData = [
   {
     name: "Halima",
     image: TailChekee,
-    location: "Medical Student ",
+    role: "Medical Student ",
     text: "Saving? As a broke student? I laughed at the idea. But then I realized I needed a plan to buy medical textbooks and fund my internship travel. I started small with Chequemate — just N1,000 here and there. I couldn’t believe how quickly it added up. Now, I have peace of mind knowing I can cover my academic expenses without stressing my parents",
   },
 ];

@@ -95,7 +95,7 @@ const Navbar = () => {
                         fill="#131D0E"
                       />
                     </svg>
-                    <Link to="/blog">
+                    <Link to="https://blog.chequemateapp.com/">
                       <h2>Blog</h2>
                     </Link>
                   </div>
@@ -128,7 +128,6 @@ const Navbar = () => {
         >
           <h2>Get the App</h2>
         </button>
-
         <div className="lg:hidden flex items-center">
           <button onClick={toggleMenu}>
             {menuOpen ? (
@@ -166,7 +165,49 @@ const Navbar = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className="lg:hidden flex flex-col h-screen">
+        <div className="fixed top-0 left-0 lg:hidden flex w-full h-full bg-white z-50 flex flex-col">
+          <div className="flex items-center justify-between mx-4 py-6">
+            <Link to={"/"}>
+              <div>
+                <img src={logo} alt="" className="h-[30px] w-fit" />
+              </div>
+            </Link>
+            <div className="lg:hidden flex items-center">
+              <button onClick={toggleMenu}>
+                {menuOpen ? (
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.75781 17.243L12.0008 12L17.2438 17.243M17.2438 6.75696L11.9998 12L6.75781 6.75696"
+                      stroke="#131D0E"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.5 7.5H3.5M20.5 12H6.5M20.5 16.5H3.5"
+                      stroke="#131D0E"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
           <ul className="px-4 pt-[30px]">
             <NavLink
               to="/"
@@ -177,6 +218,7 @@ const Navbar = () => {
                   ? "text-[#008A48] cursor-pointer "
                   : "text-black cursor-pointer"
               }
+              onClick={() => setMenuOpen(false)}
             >
               <li className="border-[#AFAFAF] border-b-[2px] py-4">
                 <h2>Home</h2>
@@ -188,6 +230,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer"
+              onClick={() => setMenuOpen(false)}
             >
               <li className="border-[#AFAFAF] border-b-[2px] py-4">
                 <h2>Features</h2>
@@ -198,6 +241,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer"
+              onClick={() => setMenuOpen(false)}
             >
               <li className="border-[#AFAFAF] border-b-[2px] py-4">
                 <h2>FAQS</h2>
@@ -227,7 +271,10 @@ const Navbar = () => {
                     fill="#131D0E"
                   />
                 </svg>
-                <Link to="/blog">
+                <Link
+                  to="https://blog.chequemateapp.com/"
+                  onClick={() => setMenuOpen(false)}
+                >
                   <li className="">
                     <h2>Blog</h2>
                   </li>
@@ -247,7 +294,7 @@ const Navbar = () => {
                     fill="#3385F7"
                   />
                 </svg>
-                <Link to="/newsletter">
+                <Link to="/newsletter" onClick={() => setMenuOpen(false)}>
                   <li className="">
                     <h2>Newsletter</h2>
                   </li>
