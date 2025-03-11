@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="bg-[#008A48] h-fit">
         <div className=" pt-[5rem] h-fit">
           <div className="flex lg:px-6 xl:px-14 justify-evenly py-[5rem] xl:gap-[3rem] gap-[2rem] md:pt-[15rem] flex-col lg:flex-row px-6">
-            <div className="">
+            <div className="w-full lg:w-[35%] md:w-[70%] mx-auto">
               <div className="lg:justify-start flex justify-center">
                 <img
                   src={logo}
@@ -45,12 +45,12 @@ const Footer = () => {
                   className="h-[30px] md:h-[50px] lg:h-[40px] w-fit"
                 />
               </div>
-              <div className="">
-                <h4 className="text-white md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start">
-                  Earn up to 22% interest on Ajo savings and <br /> up to 18% on
+              
+                <h4 className="text-white  md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start">
+                  Earn up to 22% interest on Ajo savings and up to 18% on
                   Solo savings with Chequemate.
                 </h4>
-              </div>
+              
 
               <div className="flex text-[#fff] gap-[15px] mt-4 justify-center lg:justify-start">
                 <a
@@ -95,7 +95,7 @@ const Footer = () => {
                 <h2 className="text-white text-[16px] md:text-[20px] fw-medium">
                   Resource
                 </h2>
-                <ul className="gap-[10px] md:text-[20px] lg:text-[15px] text-white">
+                <ul className="gap-[5px] md:text-[20px] lg:text-[15px] text-white">
                   <Link to="/blog">
                     <li className="py-[5px]">Blog</li>
                   </Link>
