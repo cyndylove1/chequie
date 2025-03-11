@@ -23,9 +23,12 @@ const Features = () => {
           </h2>
           <h5 className="mb:md-0 pb-10">
             Team up with friends and family in a supportive Ajo Community and
-            <span className="font-bold"> earn up to 22% interest per annum </span> on payout. We've
-            vetted our partners to ensure timely payouts, helping you all grow
-            financially together
+            <span className="font-bold">
+              {" "}
+              earn up to 22% interest per annum{" "}
+            </span>{" "}
+            on payout. We've vetted our partners to ensure timely payouts,
+            helping you all grow financially together
           </h5>
         </div>
       </div>
@@ -50,7 +53,7 @@ const Features = () => {
         </div>
         <div className="w-full lg:w-[40%] text-center md:text-left">
           <div className="md:flex-row md:py-0 flex flex-col items-center justify-between">
-            <h2 className="text-[] lg:text-[30px] text-[25px] fw-medium">
+            <h2 className="text-[#4C4486] lg:text-[30px] text-[25px] fw-medium">
               Lock it for a while
             </h2>
             <p className="w-[100px] h-[36px] bg-[#FFE3D0] text-[#FB4E00] text-[10px] flex justify-center items-center rounded-[20px]">

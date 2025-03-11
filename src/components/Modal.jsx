@@ -29,16 +29,16 @@ const Modal = ({ isModalOpen, handleCloseModal }) => {
 
                 {/* <h2 className="text-[30px] font-bold mb-4"></h2> */}
                 </div>
-                <h2 className="text-center text-white">Join a safe Ajo community, lock your savings on Chequemate with <br /> high interest rates, and unlock rewards that help you save money <br /> on every transaction</h2>
+                <h2 className=" text-white md:w-[60%] mx-auto w-full text-center">Join a safe Ajo community, lock your savings on Chequemate with  high interest rates, and unlock rewards that help you save money  on every transaction</h2>
                 <div className="relative">
                     <div>
-                        <div className="w-[420px] mx-auto mt-10">
+                        <div className="md:w-[420px] w-[330px] mx-auto mt-10">
                             <Input/>
-                            <h4 className="text-white ">You will get notified when app is launched.</h4>
+                            <h4 className=" text-white">You will get notified when app is launched.</h4>
                         </div>
                        
                     </div>
-                    <svg className="absolute right-[-10px] bottom-[-100px] w-[150px]" width="208" height="263" viewBox="0 0 208 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="absolute right-[-10px] bottom-[-100px] md:w-[150px] w-[100px]" width="208" height="263" viewBox="0 0 208 263" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M75.4163 274.932C78.0075 271.25 84.4173 265.113 90.6908 259.794C102.147 250.93 105.011 232.109 93.5548 228.563C71.734 223.926 33.4113 250.521 28.3653 252.566C28.3653 253.112 28.2289 254.066 28.3653 256.794C30.5474 256.794 33.0022 256.658 35.7298 256.658C45.0036 256.521 46.3674 256.521 47.8676 257.476C48.8222 258.021 50.5952 260.749 51.5498 268.659C52.2317 268.25 58.9143 264.158 65.8697 266.477C72.4159 268.386 75.0071 273.978 75.4163 274.932Z" fill="#F7931E"/>
                         <path d="M75.426 270.569C78.0172 266.887 84.427 260.749 90.7005 255.431C102.156 246.566 103.111 230.746 93.5645 228.428C71.7437 223.791 56.7419 233.883 51.6959 235.792C43.5131 239.065 31.3754 247.112 28.375 252.294C30.5571 252.294 33.0119 252.158 35.7395 252.158C45.0133 252.021 46.3771 252.021 47.8773 252.976C48.8319 253.521 52.105 255.84 52.5142 263.886C53.1961 263.477 59.0604 259.658 66.0158 261.977C72.4256 264.159 75.0168 269.751 75.426 270.569Z" fill="#F7AB1E"/>
                         <path d="M166.112 267.705C163.52 264.022 157.111 257.885 150.837 252.566C139.381 243.702 139.79 223.381 149.61 221.335C171.43 216.699 209.753 243.293 214.799 245.338C214.254 246.702 214.117 246.975 213.163 249.566C210.98 249.566 208.526 249.43 205.798 249.43C196.524 249.293 195.842 248.884 194.342 249.839C193.387 250.384 192.433 253.93 191.615 261.567C190.933 261.158 182.614 256.794 175.658 258.976C168.976 261.295 166.384 266.886 166.112 267.705Z" fill="#F7931E"/>

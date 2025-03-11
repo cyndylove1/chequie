@@ -1,4 +1,4 @@
-import logo from "../assets/images/LOGOMARK-3.png";
+import logo from "../assets/images/Logo (6).png";
 import { IoLogoInstagram } from "react-icons/io";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaXTwitter } from "react-icons/fa6";
