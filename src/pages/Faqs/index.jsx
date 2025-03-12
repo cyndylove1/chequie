@@ -2,11 +2,20 @@ import { GoPlus } from "react-icons/go";
 import faqImage from "../../assets/images/Group 1000001574.png";
 import useFaqs from "./useFaqs";
 import { useState } from "react";
+import AjoSavings from "./SavingsContent";
+import SavingsContent from "./SavingsContent";
 
-const Faqs = () => {
-  const { handleAccordionClick, accordion } = useFaqs();
-  const [activeButton, setActiveButton] = useState("Ajo Savings");
+const Faqs = ({ }) => {
+  // const { handleAccordionClick, accordion } = useFaqs();
+   const [activeButton, setActiveButton] = useState("Ajo Savings"); // Default selected tab
 
+   const buttons = [
+     "Ajo Savings",
+     "Solo Savings",
+     "App Safety & Fund Protection",
+     "More questions you may have",
+   ];
+  
   return (
     <div className="mb-[25rem] mt-[7rem] relative flex flex-col items-center md:px-5 py-12">
       <div className="mt-[8rem] md:mt-0">
@@ -17,52 +26,26 @@ const Faqs = () => {
           Here are answers to some questions you may have. Please feel free to
           contact email and phone number for any further questions.
         </p>
-
-        <div className="flex flex-wrap gap-[10px] justify-center mt-16">
-          <button
-            onClick={() => setActiveButton("Ajo Savings")}
-            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
-              activeButton === "Ajo Savings"
-                ? "bg-[#008A48] text-white"
-                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D]"
-            }`}
-          >
-            Ajo Savings
-          </button>
-
-          <button
-            onClick={() => setActiveButton("Solo Savings")}
-            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
-              activeButton === "Solo Savings"
-                ? "bg-[#008A48] text-white"
-                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
-            }`}
-          >
-            Solo Savings
-          </button>
-          <button
-            onClick={() => setActiveButton("App Safety")}
-            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
-              activeButton === "App Safety"
-                ? "bg-[#008A48] text-white"
-                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
-            }`}
-          >
-            App Safety & Fund Protection
-          </button>
-          <button
-            onClick={() => setActiveButton("More questions")}
-            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
-              activeButton === "More questions"
-                ? "bg-[#008A48] text-white"
-                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
-            }`}
-          >
-            More questions you may have
-          </button>
+        <div className="flex flex-wrap justify-center gap-4 mt-12">
+          {buttons.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveButton(category)}
+              className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
+                activeButton === category
+                  ? "bg-[#008A48] text-white"
+                  : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D]"
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+        <div className="mt-6">
+          <SavingsContent activeButton={activeButton} />
         </div>
 
-        <div className="w-full lg:px-[6rem] px-2 lg:pt-[5rem] pt-[2rem]">
+        {/* <div className="w-full lg:px-[6rem] px-2 lg:pt-[5rem] pt-[2rem]">
           <div>
             {accordion.map((item, i) => (
               <div
@@ -73,7 +56,7 @@ const Faqs = () => {
                   setActiveIndex(item.isOpen ? null : i);
                 }}
               >
-                <div className="p-4">
+                <div className="py-4">
                   <div className="flex items-center justify-between py-4">
                     <div className="fw-medium md:text-[28px] text-[16px]">
                       {item.title}
@@ -127,11 +110,11 @@ const Faqs = () => {
                     </ul>
                   </div>
                 )}
-                <div className="mx-2 border-[#080808] border-b-[2px] pt-2"></div>
+                <div className="mx-2 border-[#080808] border-b-[1px] pt-2"></div>
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className=" md:right-0 md:mr-6 absolute top-0 flex justify-center mt-6">

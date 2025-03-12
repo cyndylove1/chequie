@@ -28,6 +28,7 @@ function App() {
             <Route path= "/help-Support"element={<HelpAndSupport/>}/>
             <Route path= "/terms-services"element={<TermsAndServices/>}/>
             <Route path= "/privacy"element={<PrivacyAndSupport/>}/>
+            <Route path= "/privacy"element={<PrivacyAndSupport/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>
