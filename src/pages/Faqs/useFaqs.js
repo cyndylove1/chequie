@@ -39,6 +39,18 @@ const useFaqs = () =>{
         content:
           "You can contact our support team via email at support@chequemateapp.com or call us at 02013306493. Our team is available Monday to Friday, 9 a.m to 5 p.m.",
       },
+      {
+        id: 7,
+        title: "Help and Support",
+        content:
+          "Need assistance? We're here to help! Whether you have questions about your account, need help joining an Ajo group, or want to understand more about our interest rates, our dedicated support team is ready to assist you.",
+        subtext: [
+          "- Email Support: Reach us at support@oursite.com.",
+          "- Phone Support: Call us at +234-800-123-4567 (Monday to Friday, 9 AM to 5 PM).",
+          "-Live Chat: Available on our website from 9 AM to 5 PM, Monday to Friday.",
+          "- Help Center: Visit our Help Center for FAQs, guides, and tutorials."
+        ]
+      }
     ]); 
 
     

@@ -1,19 +1,65 @@
 import { GoPlus } from "react-icons/go";
+import faqImage from "../../assets/images/Group 1000001574.png";
 import useFaqs from "./useFaqs";
+import { useState } from "react";
 
 const Faqs = () => {
   const { handleAccordionClick, accordion } = useFaqs();
+  const [activeButton, setActiveButton] = useState("Ajo Savings");
 
   return (
-    <div>
-      <div className="mb-[25rem]">
-        <div className="text-center md:pt-[15rem] pt-[7rem] px-2 ">
-          <h2 className="fw-bolder md:text-[35px] text-[25px]">
-            Frequently Asked Questions
-          </h2>
-          <h5 className="md:text-[22px] text-[15px] fw-bold ">
-            We`re happy to answer your questions
-          </h5>
+    <div className="mb-[25rem] mt-[7rem] relative flex flex-col items-center md:px-5 py-12">
+      <div className="mt-[8rem] md:mt-0">
+        <h2 className=" md:text-[48px] text-[25px] text-center px-4 text-[#008A48] mb-4">
+          Why Chequemate?
+        </h2>
+        <p className="md:text-[28px] text-[15px] fw-bold px-4  text-center pt-2 md:w-[70%] w-full mx-auto">
+          Here are answers to some questions you may have. Please feel free to
+          contact email and phone number for any further questions.
+        </p>
+
+        <div className="flex flex-wrap gap-[10px] justify-center mt-16">
+          <button
+            onClick={() => setActiveButton("Ajo Savings")}
+            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
+              activeButton === "Ajo Savings"
+                ? "bg-[#008A48] text-white"
+                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D]"
+            }`}
+          >
+            Ajo Savings
+          </button>
+
+          <button
+            onClick={() => setActiveButton("Solo Savings")}
+            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
+              activeButton === "Solo Savings"
+                ? "bg-[#008A48] text-white"
+                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
+            }`}
+          >
+            Solo Savings
+          </button>
+          <button
+            onClick={() => setActiveButton("App Safety")}
+            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
+              activeButton === "App Safety"
+                ? "bg-[#008A48] text-white"
+                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
+            }`}
+          >
+            App Safety & Fund Protection
+          </button>
+          <button
+            onClick={() => setActiveButton("More questions")}
+            className={`text-[#6D6D6D] px-[24px] py-[16px] rounded-full text-[16px] ${
+              activeButton === "More questions"
+                ? "bg-[#008A48] text-white"
+                : "bg-white text-[#6D6D6D] border-[1px] border-[#6D6D6D] "
+            }`}
+          >
+            More questions you may have
+          </button>
         </div>
 
         <div className="w-full lg:px-[6rem] px-2 lg:pt-[5rem] pt-[2rem]">
@@ -28,7 +74,7 @@ const Faqs = () => {
                 }}
               >
                 <div className="p-4">
-                  <div className="flex items-center justify-between p-3">
+                  <div className="flex items-center justify-between py-4">
                     <div className="fw-medium md:text-[28px] text-[16px]">
                       {item.title}
                     </div>
@@ -54,15 +100,42 @@ const Faqs = () => {
                   </div>
                 </div>
                 {item.isOpen && (
-                  <div className="px-7 pb-4 lg:text-[24px] text-[16px] md:text-[20px] text-[#4B4B4B]">
-                    {item.content}
+                  <div className="lg:text-[24px] text-[16px] md:text-[20px] text-[#4B4B4B] px-2">
+                    <p>{item.content}</p>
+
+                    <ul className="mt-2 list-none list-disc">
+                      {item.subtext?.map((text, index) => {
+                        return (
+                          <li key={index} className="mt-1">
+                            {text.includes("Email Support") ? (
+                              <>
+                                - Email Support:{" "}
+                                <strong>support@oursite.com</strong>.
+                              </>
+                            ) : text.includes("Phone Support") ? (
+                              <>
+                                - Phone Support:{" "}
+                                <strong>+234-800-123-4567</strong> (Monday to
+                                Friday, 9 AM to 5 PM).
+                              </>
+                            ) : (
+                              text
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
                 )}
-                <div className="border-[#080808] border-b-[2px] mx-7"></div>
+                <div className="mx-2 border-[#080808] border-b-[2px] pt-2"></div>
               </div>
             ))}
           </div>
         </div>
+      </div>
+
+      <div className=" md:right-0 md:mr-6 absolute top-0 flex justify-center mt-6">
+        <img src={faqImage} alt="Mascot" className="md:w-40 w-32 h-auto p-1" />
       </div>
     </div>
   );
