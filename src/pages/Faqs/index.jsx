@@ -22,10 +22,15 @@ const Faqs = ({ }) => {
         <h2 className=" md:text-[48px] text-[25px] text-center px-4 text-[#008A48] mb-4">
           Why Chequemate?
         </h2>
-        <p className="md:text-[28px] text-[15px] fw-bold px-4  text-center pt-2 md:w-[70%] w-full mx-auto">
-          Here are answers to some questions you may have. Please feel free to
-          contact email and phone number for any further questions.
+        <p className="lg:text-[25px] md:text-[20px] text-[15px] fw-bold px-4  text-center pt-2 lg:w-[80%] w-full mx-auto">
+          Welcome to Chequemate, Mate! Your best app for Ajo contributions and
+          Solo savings with up to 18-22% interest per annum.
         </p>
+        <div className="lg:text-[25px] md:text-[20px] text-[15px] fw-bold px-4  text-center pt-2 lg:w-[80%] w-full mx-auto">
+          I am Chequie and I know you have questions. Here, I will try to answer
+          as many as I can but if you have any questions that I may have missed
+          out on here, feel free to <span className="font-bold">contact customer support.</span>
+        </div>
         <div className="flex flex-wrap justify-center gap-4 mt-12">
           {buttons.map((category) => (
             <button
@@ -118,7 +123,7 @@ const Faqs = ({ }) => {
       </div>
 
       <div className=" md:right-0 md:mr-6 absolute top-0 flex justify-center mt-6">
-        <img src={faqImage} alt="Mascot" className="md:w-40 w-32 h-auto p-1" />
+        <img src={faqImage} alt="Mascot" className="lg:w-40 w-32 h-auto p-1" />
       </div>
     </div>
   );

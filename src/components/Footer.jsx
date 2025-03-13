@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="relative">
       <div className="absolute -top-[40rem] md:-top-[30rem] left-0 right-0 lg:mx-[10rem] rounded-[12px] h-[23rem] bg-white shadow-2xl z-10 mt-[20rem]">
-        <div className="text-center pt-[5rem] w-full md:w-[70%] mx-auto">
+        <div className="text-center pt-[5rem] w-full md:w-[80%] xl:w-[70%] mx-auto">
           <h2 className="lg:text-[32px] text-[20px] font-bold px-2">
             Ready to Get Started with{" "}
             <span className="text-[#008A48]">Chequie?</span>

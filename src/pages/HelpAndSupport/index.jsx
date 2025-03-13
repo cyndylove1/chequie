@@ -10,7 +10,7 @@ const HelpAndSupport = () =>{
             <Title title="Help & Support" />
           </h2>
         </div>
-        <div>
+        <div className=""> 
           <div className="flex justify-center">
             <img src={help} alt="" className="md:h-fit h-[150px]" />
           </div>

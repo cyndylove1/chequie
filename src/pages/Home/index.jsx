@@ -42,7 +42,7 @@ const Home = () =>{
                 </div>
               </div>
             </div>
-            <p className="text-center md:py-6 md:text-[24px] text-[16px] lg:w-[50%] w-full px-4 md:px-6 lg:px-0 mx-auto ">
+            <p className="text-center md:py-6 lg:text-[24px] md:text-[20px] text-[16px] xl:w-[70%] w-full px-4 md:px-6 lg:px-0 mx-auto pt-2">
               Squad Up & Save! Create Ajo groups with your squad, earn
               competitive interest on both Ajo and Solo savings, and get
               rewarded with referral bonuses. Plus, win amazing discounts,

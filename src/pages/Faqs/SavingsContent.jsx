@@ -7,69 +7,67 @@ const accordionData = {
       id: 1,
       title: "How does Ajo savings work on Chequemate? ",
       content:
-        "You can start saving with as little as ₦500. We believe in making  savings accessible and affordable to everyone.",
+        "Ajo savings is a group savings system where members contribute a fixed amount regularly. Each cycle, one member receives the full payout, and the cycle continues until all members have been paid.",
       isOpen: false,
     },
     {
       id: 2,
       title:
         "What are the benefits of saving in an Ajo group instead of solo savings?",
-      content:
-        "Simply sign up, create an Ajo group with friends and family, or opt join a secure public Ajo group that suits your needs!",
+      content: "",
+      subtext: [
+        "● Access to lump sum payouts for financial needs.",
+        "●	Encourages disciplined savings.",
+        "●	Builds community trust and accountability.",
+        "●	Security deposit ensures minimal risk of default.",
+      ],
     },
     {
       id: 3,
       title: "How much interest does my group earn on Ajo savings?",
-      content:
-        "Interest rates vary depending on the type of savings plan you choose. Please check our Savings Plans page for detailed information on current rates.",
+      content: " Up to 20% per annum on security deposits.",
     },
     {
       id: 4,
       title: "How does my interest accrue?",
       content:
-        "You can go to bed every night knowing you are on safe investment options with Chequemate. We use advanced security measures and partner with reputable financial institutions to secure your funds.",
+        "It accrues based on the longevity of your Ajo cycle. A breakdown of interest is given before you join an Ajo Squad group.",
     },
     {
       id: 5,
       title: "How do I create or join an Ajo group?  ",
       content:
-        "We have flexible saving options that let you withdraw your savings at any time. However,some savings plans may have specific terms regarding early withdrawals. Please refer to your details and contact support for more information.",
+        "You can browse public Ajo groups on Chequemate and request to join. Private Ajo groups require an invitation from the admin.",
     },
     {
       id: 6,
       title: "Can I create my own Ajo group with friends and family?  ",
       content:
-        "You can contact our support team via email at support@chequemateapp.com or call us at 02013306493. Our team is available Monday to Friday, 9 a.m to 5 p.m.",
+        "Yes! You can create a private Ajo group and invite trusted members to participate.",
     },
     {
       id: 7,
       title: "How does Chequemate vet users to ensure they can be trusted?",
       content:
-        "Need assistance? We're here to help! Whether you have questions about your account, need help joining an Ajo group, or want to understand more about our interest rates, our dedicated support team is ready to assist you.",
-      subtext: [
-        "- Email Support: Reach us at support@chequemateapp.com.",
-        "- Phone Support: Call us at 02013306493 (Monday to Friday, 9 AM to 5 PM).",
-        "- Live Chat: Available on our website from 9 AM to 5 PM, Monday to Friday.",
-        "- Help Center: Visit our Help Center for FAQs, guides, and tutorials.",
-      ],
+        "Users are vetted using KYC and a Trust Score system based on their financial history.",
     },
     {
       id: 8,
       title: "What happens if a member of my Ajo group defaults on payment?",
       content:
-        "You can contact our support team via email at support@chequemateapp.com or call us at 02013306493. Our team is available Monday to Friday, 9 a.m to 5 p.m.",
+        "A security deposit is required upfront to cover potential defaults. Users with a poor Trust Score may also be restricted from joining new groups.",
     },
     {
       id: 9,
       title: "How is the payout order determined in an Ajo group?",
       content:
-        "You can contact our support team via email at support@chequemateapp.com or call us at 02013306493. Our team is available Monday to Friday, 9 a.m to 5 p.m.",
+        "Payout order is determined based on members’ Trust Scores, which reflect their savings reliability.",
     },
     {
       id: 10,
       title: "Are there any fees for participating in an Ajo savings group?",
       content:
-        "You can contact our support team via email at support@chequemateapp.com or call us at 02013306493. Our team is available Monday to Friday, 9 a.m to 5 p.m.",
+        "Chequemate does not charge fees for joining Ajo groups, but transaction and processing fees may apply for certain transfers.",
     },
   ],
   "Solo Savings": [
@@ -77,43 +75,38 @@ const accordionData = {
       id: 11,
       title: "What is Solo Savings, and how is it different from Ajo Savings?",
       content:
-        "Solo savings allows you to save individually without joining a group, giving you full control over your savings plan.",
+        "Solo Savings is an individual savings plan where you save towards a goal at your own pace. Unlike Ajo, Solo Savings does not involve a group payout system.",
     },
     {
       id: 12,
       title: "Can I set custom savings goals with Solo Savings?",
       content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
+        "Yes! You can define a target amount and a savings timeline to achieve your goal.",
     },
     {
       id: 13,
       title: "How do I automate my Solo Savings contributions?",
       content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
+        "Recurring deposits are automatically set up from your Chequemate wallet.",
     },
     {
       id: 14,
       title: "Is there a penalty for withdrawing my savings early?",
       content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
+        "Solo savings accounts have penalties for early withdrawals, and customers will lose any accrued interest. Wallet savings allow you to withdraw anytime without penalties.",
     },
     {
       id: 15,
       title: "How much interest can I earn on my Solo Savings?",
       content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
+        "Yes! Depending on the savings plan, you may earn interest on your deposits.",
     },
-    {
-      id: 16,
-      title: "How does my interest accrue?",
-      content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
-    },
+   
     {
       id: 17,
       title: "How does Chequemate help me stay consistent with my savings?",
       content:
-        "Simply go to the 'Solo Savings' section in the app and follow the setup process.",
+        "Chequemate provides automated reminders, goal tracking, and incentives to keep you on track.",
     },
   ],
   "App Safety & Fund Protection": [
@@ -121,112 +114,109 @@ const accordionData = {
       id: 18,
       title: "Is my money safe with Chequemate?  ",
       content:
-        "Yes! We prioritize security with end-to-end encryption and top-notch fraud protection measures.",
+        "Yes! Funds are securely managed and protected through financial regulations and security measures.",
     },
     {
       id: 19,
       title: "Is Chequemate licensed and regulated?  ",
       content:
-        "We partner with licensed financial institutions and use secure transaction protocols.",
+        "Yes, Chequemate operates under regulatory compliance and partners with licensed financial institutions.",
     },
     {
       id: 20,
       title: "How does Chequemate protect my funds from fraud?",
       content:
-        "We partner with licensed financial institutions and use secure transaction protocols.",
+        "We use advanced fraud detection, encryption, and multi-factor authentication to prevent fraud.",
     },
     {
       id: 21,
       title:
         "What security measures does Chequemate use to keep my account safe?",
-      content:
-        "We partner with licensed financial institutions and use secure transaction protocols.",
+      content: "",
+      subtext: [
+        "●	Two-factor authentication (2FA).",
+        "●	Data encryption.",
+        "●	Fraud monitoring.",
+      ],
     },
     {
       id: 22,
       title: "What happens if my phone is lost or stolen?  ",
       content:
-        "We partner with licensed financial institutions and use secure transaction protocols.",
+        "You can log into your account from another device and reset your credentials for security.",
     },
     {
       id: 23,
       title: "Can I recover my money if my account is hacked?",
       content:
-        "We partner with licensed financial institutions and use secure transaction protocols.",
+        "Yes, report the incident to Chequemate support immediately. If verified, we will work to recover your funds.",
     },
     {
       id: 24,
       title: "Are my personal details and banking information secure?",
-      // content:
-      //   "We partner with licensed financial institutions and use secure transaction protocols.",
+      content:
+        "Yes, we follow strict data protection policies to keep your information safe.",
     },
     {
       id: 25,
       title: "How do I report suspicious activity or fraud?",
-      // content:
-      //   "We partner with licensed financial institutions and use secure transaction protocols.",
+      content: "Contact our support team immediately.",
     },
   ],
   "More questions you may have": [
     {
-      id: 26,
-      title: "What more does Chequemate have for me? ",
-      content: "Here, we talk about referrals, points, and badge levels.",
-      // "Yes, you can withdraw your savings at any time without penalties.",
-    },
-    {
       id: 27,
       title: "How do I fund my Chequemate wallet?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "You can fund your wallet via bank transfer, debit card, or mobile payment options available in the app.",
     },
     {
       id: 28,
       title: "Can I withdraw my savings at any time? ",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Yes, however, solo savings may have restrictions on early withdrawals. ",
     },
     {
       id: 29,
       title: "What are the charges for withdrawals or transfers? ",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Minimal transaction fees apply for withdrawals and external transfers.",
     },
     {
       id: 30,
       title: "How long does it take to receive my payout?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Ajo payouts are processed instantly once it is your turn. Bank transfers may take up to 24 hours.",
     },
     {
       id: 31,
       title: "What happens if I miss a contribution to my Ajo group?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Missed payments may affect your Trust Score and prevent future participation. After the grace period set by the admin, penalties will be deducted from the security deposit as well.",
     },
     {
       id: 32,
       title: "How do I contact Chequemate customer support? ",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "You can reach us via the in-app support chat, email, or helpline.",
     },
     {
       id: 33,
       title: "Can I invite friends and earn rewards?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Yes! Chequemate offers referral bonuses when you invite friends who successfully save.",
     },
     {
       id: 34,
       title: "Does Chequemate offer loans or credit based on my savings?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Not at the moment, but we plan to introduce credit-based features in the future.",
     },
     {
       id: 35,
       title: "What happens to my savings if I stop using the app?",
       content:
-        "You can reach us via email at support@chequemate.com or call our support hotline.",
+        "Your savings remain secure, and you can withdraw anytime. However, inactive accounts for extended periods may be subject to dormancy policies.",
     },
   ],
 };
@@ -249,7 +239,7 @@ const SavingsContent = ({ activeButton }) => {
                 onClick={() => handleAccordionClick(item.id)}
                 className="focus:outline-none flex items-center justify-between w-full py-4 text-lg text-left"
               >
-                <div className="fw-medium md:text-[28px] text-[16px]">
+                <div className="fw-medium md:text-[20px] lg:text-[28px] text-[16px]">
                   {item.title}
                 </div>
                 <span className="">
@@ -277,7 +267,7 @@ const SavingsContent = ({ activeButton }) => {
                   <p className="lg:text-[24px] text-[16px] md:text-[20px] text-[#4B4B4B]">
                     {item.content}
                   </p>
-                  {/* <div className="lg:text-[24px] text-[16px] md:text-[20px] text-[#4B4B4B]">
+                  <div className="lg:text-[24px] text-[16px] md:text-[20px] text-[#4B4B4B]">
                     {item.subtext?.length > 0 && (
                       <ul className="mt-2 list-none">
                         {item.subtext.map((text, index) => (
@@ -299,7 +289,7 @@ const SavingsContent = ({ activeButton }) => {
                         ))}
                       </ul>
                     )}
-                  </div> */}
+                  </div>
                 </div>
               )}
             </div>
