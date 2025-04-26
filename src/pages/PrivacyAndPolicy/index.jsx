@@ -21,7 +21,7 @@ const PrivacyAndSupport = () =>{
                 </p>
             </div>
 
-            <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:mx-14 mx-4">
+            <div className="xl:mt-[6rem] md:mt-[3rem] mt-[1rem] md:px-[7rem] mx-4">
                 <ul>
                     {privacy.map((privacy, index) => (
                         <li key={index} className="flex items-center h-fit mb-4 w-fit gap-[10px]">

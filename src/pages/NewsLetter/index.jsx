@@ -44,14 +44,14 @@ const Newsletter = () =>{
               />
               <button
                 type="submit"
-                className="bg-[#008A48] text-white py-2 h-[48px] text-[16px] rounded-lg "
+                className="bg-[#008A48] text-white py-2 h-[48px] text-[16px] rounded-lg font-bold "
               >
                 SUBSCRIBE
               </button>
             </form>
-            <p className="text-[#505050] text-[16px] mt-4">
-              Unsubscribe at any time
-            </p>
+            <button className="text-[#505050] p-2 font-bold rounded-[8px] text-[14px] mt-4 border-[1px] border-[#AFAFAF] ">
+              Unsubscribe
+            </button>
           </div>
         </div>
         <Save />

@@ -28,14 +28,14 @@ const Features = () => {
               earn up to 22% interest per annum{" "}
             </span>{" "}
             on payout. We've vetted our partners to ensure timely payouts,
-            helping you all grow financially together
+            helping you all grow financially together.
           </h5>
         </div>
       </div>
       <div className="flex items-center md:flex-row flex-col-reverse justify-center md:gap-[58px] gap-[20px] md:pt-0 lg:mt-[5rem] md:px-6 lg:px-0">
         <div className="w-full lg:w-[40%] text-center md:text-left">
           <h2 className="lg:text-[30px] text-[25px] text-[#008A48] fw-medium py-2">
-            Save on Your Own and Earn Interest
+            Save on Your Own and Earn up to 15% Interest
           </h2>
           <h5 className="md:pb-0 pb-10">
             Save when you want and how you want. Whether you’re locking funds

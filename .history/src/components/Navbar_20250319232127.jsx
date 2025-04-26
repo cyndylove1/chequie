@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/images/Logo (4).png";
 import { Link, NavLink } from "react-router-dom";
-g
+import { Link as ScrollLink } from "react-scroll";
 import Modal from "./Modal";
 
 const Navbar = () => {

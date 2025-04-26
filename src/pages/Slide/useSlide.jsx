@@ -24,7 +24,7 @@ const slidesData = [
   {
     name: "Tayo",
     image: AfrohawkChekee,
-    text: "At work, my colleagues and I wanted to start an Ajo group for our wellness retreat. We’d tried before, but it was chaotic — people forgot payment dates, and trust was shaky. With Chequemate, it’s seamless. Everyone contributed on time, and we even earned interest on the savings. Our retreat this year? Epic",
+    text: "At work, my colleagues and I wanted to start an Ajo group for our wellness retreat. We’d tried before, but it was chaotic — people forgot payment dates, and trust was shaky. With Chequemate, it’s seamless. Everyone contributed on time, and we even earned interest on the savings. Our retreat this year? Epic.",
   },
   {
     name: "Halima",

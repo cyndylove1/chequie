@@ -42,17 +42,12 @@ const Home = () =>{
                 </div>
               </div>
             </div>
-            <p className="text-center md:py-6 lg:text-[24px] md:text-[20px] text-[16px] xl:w-[70%] w-full px-4 md:px-6 lg:px-0 mx-auto pt-2">
-              Squad Up & Save! Create Ajo groups with your squad, earn
-              competitive interest on both Ajo and Solo savings, and get
-              rewarded with referral bonuses. Plus, win amazing discounts,
-              prizes, and benefits based on your Mate Badge Level.
+            <p className="text-center md:py-6 lg:text-[24px] md:text-[20px] text-[16px] xl:w-[50%] w-full px-4 md:px-6 lg:px-0 mx-auto pt-2">
+              Manage and control multiple Ajo groups with Chequemate and earn up
+              to 20% interest per annum.
             </p>
           </div>
-          <div className="flex items-center justify-center gap-4 pt-4 pb-6">
-            <img src={badge1} alt="" className="" />
-            <img src={badge2} alt="" />
-          </div>
+          <button className="bg-[#008A48] text-white flex items-center justify-center mx-auto md:p-4 p-2 rounded-[8px] font-bold mb-6 mt-4 md:mt-0 md:text-[16px] text-[14px]">Create Your Squad</button>
         </div>
         <div className="">
           <img src={hero} alt="" className="" />

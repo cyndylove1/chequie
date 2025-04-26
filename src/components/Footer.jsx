@@ -23,15 +23,17 @@ const Footer = () => {
             >
               support@chequemateapp.com
             </a>{" "}
-            or call us {" "}
+            or call us{" "}
             <span className="text-[#008A48] underline">02013306493</span> Our
             team is available Monday to Friday, 9 a.m. to 5 p.m.
           </p>
         </div>
         <div className="md:mx-0 flex justify-center mx-6 mt-4">
-          <button className="md:w-[174px] w-full h-[56px] bg-[#008A48] rounded-[50px] text-[18px] text-white fw-medium">
-            Contact us
-          </button>
+          <Link to="https://web.facebook.com/profile.php?id=61565955361317">
+            <button className="md:w-[174px] w-[160px] md:h-[56px] h-[40px] bg-[#008A48] rounded-[50px] md:text-[18px] text-[14px] text-white font-bold">
+              Contact us
+            </button>
+          </Link>
         </div>
       </div>
       <div className="bg-[#008A48] h-fit">
@@ -45,8 +47,11 @@ const Footer = () => {
                   className="h-[30px] md:h-[50px] lg:h-[40px] w-fit"
                 />
               </div>
+              <h2 className="lg:text-start py-2 text-center md:text-[25px] lg:text-[18px] text-[18px] text-white">
+                Plot 1628, Independence Layout, Enugu 400102, Enugu, Nigeria.
+              </h2>
 
-              <h4 className="text-white  md:text-[25px] lg:text-[18px] text-[18px] pt-4 text-center lg:text-start">
+              <h4 className="text-white md:text-[25px] lg:text-[18px] text-[18px] text-center lg:text-start">
                 Earn up to 22% interest on Ajo savings and up to 18% on Solo
                 savings with Chequemate.
               </h4>

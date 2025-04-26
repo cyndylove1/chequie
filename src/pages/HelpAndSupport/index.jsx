@@ -23,7 +23,7 @@ const HelpAndSupport = () =>{
             </p>
           </div>
         </div>
-        <div className="md:pt-[5rem] px-4 pt-[3rem] lg:px-20 lg:text-[24px] md:text-[20px] text-[15px]">
+        <div className="md:pt-[5rem] px-4 pt-[3rem] lg:px-[7rem] lg:text-[24px] md:text-[20px] text-[15px]">
           <div className="flex items-center gap-[10px] py-4">
             <svg
               width="40"
