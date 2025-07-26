@@ -100,7 +100,7 @@ const Footer = () => {
                   Resource
                 </h2>
                 <ul className="gap-[5px] md:text-[20px] lg:text-[15px] text-white">
-                  <Link to="https://blog.chequemateapp.com/">
+                  <Link to="/blog">
                     <li className="py-[5px]">Blog</li>
                   </Link>
                   <Link to="/newsletter">

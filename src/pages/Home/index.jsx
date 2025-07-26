@@ -43,7 +43,7 @@ const Home = () =>{
               </div>
             </div>
             <p className="text-center md:py-6 lg:text-[24px] md:text-[20px] text-[16px] xl:w-[50%] w-full px-4 md:px-6 lg:px-0 mx-auto pt-2">
-              Manage and control multiple Ajo groups with Chequemate and earn up
+              Manage and control multiple Ajo groups with Chequemate <br /> and earn up
               to 20% interest per annum.
             </p>
           </div>
